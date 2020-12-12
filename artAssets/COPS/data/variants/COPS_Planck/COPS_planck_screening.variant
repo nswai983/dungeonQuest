@@ -1,0 +1,28 @@
+{
+  "displayName": "Screening",
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "COPS_planck",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_planck_screening",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0003": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

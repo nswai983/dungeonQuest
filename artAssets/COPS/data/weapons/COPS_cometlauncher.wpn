@@ -1,0 +1,40 @@
+{
+  "animationType": "NONE",
+  "barrelMode": "ALTERNATING",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    -5.5,
+    0,
+    5.5
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/COPS_Comet_Invis.png",
+  "id": "COPS_cometlauncher",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_cometproj",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    0,
+    -5.5,
+    0,
+    5.5
+  ],
+  "turretSprite": "graphics/COPS/weapons/COPS_Comet_Invis.png",
+  "type": "MISSILE",
+  "fireSoundTwo":"pilum_lrm_fire",
+}

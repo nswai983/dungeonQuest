@@ -1,0 +1,54 @@
+{
+  "displayName": "Combat",
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_neutroyte",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [
+    {
+      "WS0001": "COPS_neutroyte_module_standard"
+    },
+    {
+      "WS0008": "COPS_stabilizer_mod_standard"
+    }
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_neutroyte_combat",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse",
+        "WS0003": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun"
+      }
+    }
+  ],
+  "wings": []
+}

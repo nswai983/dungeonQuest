@@ -1,0 +1,24 @@
+{
+	"id":"COPS_cometwarhead",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/missile_vlrm_stage2+1.png",
+	"size":[13,21],	
+	"center":[6.5,10.5],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[0,165,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"maxFlightTime":20,	
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":270,
+				  "maxSpeed":200,
+				  "acc":200,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    "style":"COPS_TECH_Missile",
+				    "width":12.0,
+				    "length":40.0,
+				    "angle":180.0}]
+}

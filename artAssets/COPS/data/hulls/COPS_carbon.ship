@@ -1,0 +1,168 @@
+{
+  "bounds": [
+    -45.5,
+    11,
+    -63,
+    9.5,
+    -55,
+    27.5,
+    -28.5,
+    33.5,
+    -24,
+    57,
+    -17.5,
+    36.5,
+    61.5,
+    12,
+    47,
+    7,
+    47,
+    -7,
+    61.5,
+    -12,
+    -17.5,
+    -36.5,
+    -24,
+    -57,
+    -28.5,
+    -33.5,
+    -55,
+    -27.5,
+    -63,
+    -9.5,
+    -45.5,
+    -11
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "builtInWeapons": {
+    "WS0001": "COPS_cannon"
+  },
+  "center": [
+    62,
+    66
+  ],
+  "collisionRadius": 95.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -65.5,
+        14.5
+      ],
+      "style": "COPS_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -65.5,
+        -14.5
+      ],
+      "style": "COPS_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 28.5,
+      "location": [
+        -60.5,
+        -25
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 28.5,
+      "location": [
+        -60.5,
+        25
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    }
+  ],
+  "height": 132,
+  "hullId": "COPS_carbon",
+  "hullName": "Carbon",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 83.5,
+  "spriteName": "graphics/COPS/ships/COPS_Carbon_heavyfrigate.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        30,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0002",
+      "locations": [
+        -9.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 75,
+      "id": "WS0003",
+      "locations": [
+        -9.5,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -24,
+        -54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -24,
+        54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    }
+  ],
+  "width": 124
+}

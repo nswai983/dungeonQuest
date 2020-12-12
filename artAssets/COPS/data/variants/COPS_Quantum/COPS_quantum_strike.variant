@@ -1,0 +1,42 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_quantum",
+  "hullMods": [
+    "auxiliarythrusters",
+    "fluxdistributor",
+    "hardened_subsystems"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "COPS_quantum_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "COPS_PP"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

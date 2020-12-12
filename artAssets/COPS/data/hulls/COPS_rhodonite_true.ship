@@ -1,0 +1,116 @@
+{
+  "bounds": [
+    -30.5,
+    9.5,
+    1.5,
+    34,
+    16,
+    26,
+    10.5,
+    7.5,
+    10.5,
+    -7.5,
+    16,
+    -26,
+    1.5,
+    -34,
+    -30.5,
+    -9.5
+  ],
+  "builtInMods": [
+    "COPS_shield",
+    "COPS_rhodonitesystems"
+  ],
+  "center": [
+    45,
+    34.5
+  ],
+  "collisionRadius": 77,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 53,
+      "location": [
+        -29.5,
+        -21
+      ],
+      "style": "COPS_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 53,
+      "location": [
+        -29.5,
+        21
+      ],
+      "style": "COPS_TECH",
+      "width": 15
+    }
+  ],
+  "height": 75,
+  "hullId": "COPS_rhodonite_true",
+  "hullName": "Rhodonite",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 57,
+  "spriteName": "graphics/COPS/ships/fighters/COPS_Rhodonite_drone.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -6.5,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -6.5,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        13.5,
+        -21
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        13.5,
+        21
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 90
+}

@@ -1,0 +1,64 @@
+{
+  "displayName": "Beam",
+  "fluxCapacitors": 6,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "COPS_gravon",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "modules": [
+    {
+      "module_slot": "COPS_gravon_mod_standard"
+    },
+    {
+      "WS0002": "COPS_stabilizer_mod_standard"
+    }
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_gravon_beam",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001_mod": "hil",
+        "WS0002_mod": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005_mod": "taclaser",
+        "WS0006_mod": "taclaser",
+        "WS0007_mod": "taclaser",
+        "WS0008_mod": "taclaser",
+        "WS0011_mod": "taclaser",
+        "WS0012_mod": "taclaser",
+        "WS0013_mod": "gravitonbeam",
+        "WS0014_mod": "gravitonbeam",
+        "WS0015": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003_mod": "ionbeam",
+        "WS0004_mod": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdburst",
+        "WS0010": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

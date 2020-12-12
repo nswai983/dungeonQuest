@@ -1,0 +1,68 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 50,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "COPS_mesonax",
+  "hullMods": [
+    "missleracks"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_mesonax_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "COPS_cometlauncher",
+        "WS0002": "COPS_cometlauncher",
+        "WS0003": "COPS_cometlauncher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "hurricane",
+        "WS0005": "hurricane",
+        "WS0016": "harpoon",
+        "WS0017": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "sabotpod",
+        "WS0007": "sabotpod",
+        "WS0008": "sabotpod",
+        "WS0011": "sabotpod",
+        "WS0014": "sabot",
+        "WS0015": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "harpoonpod",
+        "WS0010": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0021": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

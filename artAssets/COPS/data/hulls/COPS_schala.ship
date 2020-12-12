@@ -1,0 +1,148 @@
+{
+  "bounds": [
+    -33,
+    4.5,
+    -17.5,
+    13.5,
+    -27,
+    20,
+    -21,
+    29.5,
+    0,
+    33.5,
+    16,
+    30.5,
+    17,
+    24,
+    9.5,
+    18.5,
+    22.5,
+    15.5,
+    19.5,
+    2.5,
+    43.5,
+    -0,
+    19.5,
+    -2.5,
+    22.5,
+    -15.5,
+    8,
+    -17.5,
+    8,
+    -31.5,
+    -21,
+    -29.5,
+    -27,
+    -20,
+    -17.5,
+    -13.5,
+    -33,
+    -4.5
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "center": [
+    37,
+    36.5
+  ],
+  "collisionRadius": 65.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -28.5,
+        22.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -28.5,
+        -22.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 46,
+      "location": [
+        -36.5,
+        -0
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    }
+  ],
+  "height": 82,
+  "hullId": "COPS_schala",
+  "hullName": "Schala",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    4.5,
+    1
+  ],
+  "shieldRadius": 54,
+  "spriteName": "graphics/COPS/ships/COPS_Schala_corvette.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -45,
+      "arc": 110,
+      "id": "WS0001",
+      "locations": [
+        2.5,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 110,
+      "id": "WS0002",
+      "locations": [
+        -10.5,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        21.5,
+        12
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        21.5,
+        -12
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 72
+}

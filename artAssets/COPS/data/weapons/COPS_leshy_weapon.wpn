@@ -1,0 +1,41 @@
+{
+  "animationType": "GLOW",
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "fireSoundTwo": "needler_fire",
+  "everyFrameEffect": "data.scripts.weapons.COPS_LeshyWeapon",
+  "glowColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/ships/REDACTED/COPS_Leshy_weapon_glow.png",
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "graphics/COPS/ships/REDACTED/COPS_Leshy_weapon.png",
+  "id": "COPS_leshy_weapon",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_leshy_weapon_shot",
+  "renderAboveAllWeapons": 1,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/ships/REDACTED/COPS_Leshy_weapon_glow.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretSprite": "graphics/COPS/ships/REDACTED/COPS_Leshy_weapon.png",
+  "type": "ENERGY"
+}

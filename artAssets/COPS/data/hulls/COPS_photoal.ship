@@ -1,0 +1,303 @@
+{
+  "bounds": [
+    -55,
+    21.5,
+    -71,
+    31.5,
+    -40,
+    51,
+    -24.5,
+    62.5,
+    -12.5,
+    44,
+    33.5,
+    17,
+    102.5,
+    17,
+    102.5,
+    -17,
+    33.5,
+    -17,
+    -12.5,
+    -44,
+    -24.5,
+    -62.5,
+    -40,
+    -51,
+    -71,
+    -31.5,
+    -55,
+    -21.5
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "builtInWings": [
+    "COPS_qark_drone_wing",
+    "COPS_qark_drone_wing",
+    "COPS_qark_drone_wing",
+    "COPS_qark_drone_wing"
+  ],
+  "center": [
+    65,
+    74
+  ],
+  "collisionRadius": 166,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 63,
+      "location": [
+        -74,
+        -30
+      ],
+      "style": "COPS_TECH",
+      "width": 21
+    },
+    {
+      "angle": -180,
+      "contrailSize": 21,
+      "length": 63,
+      "location": [
+        -74,
+        30
+      ],
+      "style": "COPS_TECH",
+      "width": 21
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 50.5,
+      "location": [
+        -66,
+        -22
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 50.5,
+      "location": [
+        -66,
+        22
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 173.5,
+      "contrailSize": 128,
+      "length": 53.086864,
+      "location": [
+        -63.5,
+        6
+      ],
+      "style": "COPS_TECH",
+      "width": 22.161665
+    },
+    {
+      "angle": -173.5,
+      "contrailSize": 128,
+      "length": 53.086864,
+      "location": [
+        -63.5,
+        -6
+      ],
+      "style": "COPS_TECH",
+      "width": 22.161665
+    },
+    {
+      "angle": -135,
+      "contrailSize": 128,
+      "length": 50.5,
+      "location": [
+        -40,
+        -57
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 135,
+      "contrailSize": 128,
+      "length": 50.5,
+      "location": [
+        -40,
+        57
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    }
+  ],
+  "height": 185,
+  "hullId": "COPS_photoal",
+  "hullName": "Photoal",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    18.5,
+    0
+  ],
+  "shieldRadius": 121.5,
+  "spriteName": "graphics/COPS/ships/COPS_Photoal_dronedestroyer.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 60,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        96,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        75,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        54,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 90,
+      "id": "WS0004",
+      "locations": [
+        33,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [
+        -25,
+        -51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 90,
+      "id": "WS0006",
+      "locations": [
+        -25,
+        51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -135,
+      "arc": 135,
+      "id": "WS0007",
+      "locations": [
+        -43,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 135,
+      "arc": 135,
+      "id": "WS0008",
+      "locations": [
+        -43,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        28,
+        19.5,
+        28,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        21.5,
+        25,
+        21,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -45,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        15,
+        -30.5,
+        15,
+        30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -45,
+      "arc": 0,
+      "id": "WS0016",
+      "locations": [
+        8.5,
+        -36,
+        8,
+        36.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 130
+}

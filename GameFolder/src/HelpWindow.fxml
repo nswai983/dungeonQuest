@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vboxController" fx:controller="HelpWindow" xmlns:fx="http://javafx.com/fxml"  stylesheets="@MainWindow.css"
+    spacing="10" prefHeight="700" prefWidth="480">
+
+    <BorderPane>
+
+    <top>
+    <ImageView><image><Image url="@images/logo.png" /></image></ImageView>
+    </top>
+
+    <center>
+        <ScrollPane fx:id="scrollpaneInstructionsPane" style="-fx-background-color: transparent" >
+            <VBox fx:id="vboxInstructions" spacing="20" >
+                <HBox fx:id="vboxInstruction0" >
+                    <Label fx:id="lblInstruction0" style="-fx-text-fill: rgb(56, 96, 141)" />
+                </HBox>
+                <HBox fx:id="vboxInstruction1" >
+                    <Label fx:id="lblInstruction1" style="-fx-text-fill: rgb(56, 96, 141)"/>
+                </HBox>
+                <HBox fx:id="vboxInstruction2" >
+                    <Label fx:id="lblInstruction2" style="-fx-text-fill: rgb(56, 96, 141)"/>
+                    <Label />
+                </HBox>
+                <ImageView><image><Image url="@images/type1_var2.png" /></image></ImageView>
+                <HBox fx:id="vboxInstruction3" >
+                    <Label fx:id="lblInstruction3" style="-fx-text-fill: rgb(56, 96, 141)"/>
+                </HBox>
+                <ImageView><image><Image url="@images/type2_var2.png" /></image></ImageView>
+                <HBox fx:id="vboxInstruction4" >
+                    <Label fx:id="lblInstruction4" style="-fx-text-fill: rgb(56, 96, 141)"/>
+                </HBox>
+                <HBox fx:id="vboxInstruction5" >
+                    <Label fx:id="lblInstruction5" style="-fx-text-fill: rgb(56, 96, 141)"/>
+                </HBox>
+            </VBox>
+        </ScrollPane>
+    </center>
+
+    <right>
+    </right>
+
+    <bottom>
+        <VBox alignment="CENTER" >
+            <Button fx:id="btnExit" onAction="#onExitBtnClicked" text="Exit" />
+        </VBox>
+    </bottom>
+
+    </BorderPane>
+
+</VBox>

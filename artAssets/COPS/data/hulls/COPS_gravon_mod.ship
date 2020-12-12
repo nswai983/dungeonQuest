@@ -1,0 +1,44 @@
+{
+  "bounds": [
+    -2.5,
+    51,
+    7,
+    126.5,
+    56.5,
+    21,
+    56.5,
+    -21,
+    7,
+    -126.5,
+    -2.5,
+    -51,
+    22,
+    -18,
+    22,
+    18
+  ],
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "center": [
+    152,
+    33
+  ],
+  "collisionRadius": 157,
+  "engineSlots": [],
+  "height": 109,
+  "hullId": "COPS_gravon_mod",
+  "hullName": "Gravon Module",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 183.5,
+  "spriteName": "graphics/COPS/ships/COPS_Gravon_heavycruiser_mod.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 304
+}

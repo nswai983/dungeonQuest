@@ -1,0 +1,14 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": false,
+  "hullId": "COPS_rhodonite_true",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_rhodonite_true_default",
+  "weaponGroups": [],
+  "wings": []
+}

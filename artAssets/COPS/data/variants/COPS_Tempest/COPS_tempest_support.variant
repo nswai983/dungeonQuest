@@ -1,0 +1,39 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_tempest",
+  "hullMods": [
+    "fluxdistributor",
+    "auxiliarythrusters"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_tempest_support",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "heatseeker"
+      }
+    }
+  ],
+  "wings": []
+}

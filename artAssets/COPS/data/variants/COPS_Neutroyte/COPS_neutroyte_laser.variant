@@ -1,0 +1,48 @@
+{
+  "displayName": "Laser",
+  "fluxCapacitors": 5,
+  "fluxVents": 13,
+  "goalVariant": true,
+  "hullId": "COPS_neutroyte",
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "modules": [
+    {
+      "WS0001": "COPS_neutroyte_module_standard"
+    },
+    {
+      "WS0008": "COPS_stabilizer_mod_standard"
+    }
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_neutroyte_laser",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "taclaser",
+        "WS0003": "taclaser",
+        "WS0004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dualflak"
+      }
+    }
+  ],
+  "wings": []
+}

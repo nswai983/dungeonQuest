@@ -1,0 +1,16 @@
+{
+	"id":"COPS_shotgun_shot_1",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":6.0,
+	"fadeTime":0.15,
+	"fringeColor":[255,15,50,255],
+	"coreColor":[255,255,255,200],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureType":["graphics/COPS/missiles/COPS_shot1.png","graphics/COPS/missiles/COPS_shot1.png"],
+	"textureScrollSpeed":-50.0,
+	"pixelsPerTexel":1.0
+}

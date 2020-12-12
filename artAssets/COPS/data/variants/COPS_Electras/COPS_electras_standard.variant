@@ -1,0 +1,51 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 12,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_electras",
+  "hullMods": [
+    "recovery_shuttles"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_electras_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0004": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": [
+    "dagger_wing",
+    "wasp_wing",
+    "wasp_wing"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"baseHullId":"COPS_quantum",
+	"skinHullId":"COPS_quantum_BO",
+	"hullName":"Quantum (BO)",
+	"descriptionId":"COPS_quantum",
+	"descriptionPrefix":"This advanced Black-Ops variant of the Quantum-class sports more powerful thrusters and sturdier hardware.",
+	"tags":["rare_bp", "COPS_BO_bp"],
+	"tech":"COPS",
+	"style":"COPS_TECH",
+	"systemId":"plasmajets",
+	"baseValueMult":2.0,
+	"spriteName":"graphics/COPS/ships/COPS_Quantum_phasefrigate_BO.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["delicate",], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods": [
+	],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+	},
+}

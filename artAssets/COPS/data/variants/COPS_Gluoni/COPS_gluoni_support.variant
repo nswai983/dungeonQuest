@@ -1,0 +1,54 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 20,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "COPS_gluoni",
+  "hullMods": [
+    "missleracks"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_gluoni_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "harpoon",
+        "WS0003": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "pilum",
+        "WS0008": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heatseeker",
+        "WS0006": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "taclaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

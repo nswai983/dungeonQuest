@@ -1,0 +1,144 @@
+{
+  "bounds": [
+    9.5,
+    -12,
+    4.5,
+    -24,
+    -7.5,
+    -21,
+    -17.5,
+    -15,
+    -42.5,
+    -15,
+    -48.5,
+    0,
+    -42.5,
+    16,
+    -16.5,
+    15,
+    -7.5,
+    22,
+    4.5,
+    24,
+    9.5,
+    14,
+    22.5,
+    7,
+    52,
+    12,
+    41.5,
+    7.5,
+    41.5,
+    -7.5,
+    52,
+    -12,
+    22.5,
+    -7
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "center": [
+    26,
+    51.5
+  ],
+  "collisionRadius": 80,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -46.5,
+        14
+      ],
+      "style": "COPS_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -50.5,
+        -0
+      ],
+      "style": "COPS_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -46.5,
+        -14
+      ],
+      "style": "COPS_TECH",
+      "width": 16
+    }
+  ],
+  "height": 110,
+  "hullId": "COPS_wolf_cop",
+  "hullName": "Wolf (COP)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 70,
+  "spriteName": "graphics/COPS/ships/COPS_Wolf(COP)_frigate.png",
+  "style": "COPS_TECH",
+  "viewOffset": 50,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS 001",
+      "locations": [
+        -14.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 004",
+      "locations": [
+        33.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        3.5,
+        19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 006",
+      "locations": [
+        3.5,
+        -19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    }
+  ],
+  "width": 52
+}

@@ -1,0 +1,63 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 9,
+  "fluxVents": 30,
+  "goalVariant": false,
+  "hullId": "COPS_gravon",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [
+    {
+      "module_slot": "COPS_gravon_mod_standard"
+    },
+    {
+      "WS0002": "COPS_stabilizer_mod_standard"
+    }
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_gravon_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001_mod": "multineedler",
+        "WS0002_mod": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013_mod": "pilum",
+        "WS0014_mod": "pilum",
+        "WS0015": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003_mod": "ionbeam",
+        "WS0004_mod": "ionbeam",
+        "WS0011_mod": "COPS_light_cannon",
+        "WS0012_mod": "COPS_light_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005_mod": "lrpdlaser",
+        "WS0006_mod": "lrpdlaser",
+        "WS0007_mod": "lrpdlaser",
+        "WS0008_mod": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

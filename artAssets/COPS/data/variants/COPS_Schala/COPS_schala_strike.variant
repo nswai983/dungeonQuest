@@ -1,0 +1,31 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "COPS_schala",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_schala_strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COPS_rapidlaser",
+        "WS0002": "COPS_rapidlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    }
+  ],
+  "wings": []
+}

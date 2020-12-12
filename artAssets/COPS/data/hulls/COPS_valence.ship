@@ -1,0 +1,174 @@
+{
+  "bounds": [
+    -39,
+    17,
+    -52,
+    31,
+    -22,
+    51.5,
+    17.5,
+    51,
+    50.5,
+    20.5,
+    21,
+    7.5,
+    21,
+    -7.5,
+    50.5,
+    -20.5,
+    17.5,
+    -51,
+    -22,
+    -51,
+    -52,
+    -31,
+    -39,
+    -17,
+    -50,
+    -0
+  ],
+  "builtInMods": [
+    "COPS_shield",
+    "civgrade"
+  ],
+  "center": [
+    56,
+    56
+  ],
+  "collisionRadius": 96.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 64.5,
+      "location": [
+        -55.5,
+        -26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 28,
+      "length": 64.5,
+      "location": [
+        -55.5,
+        26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 28
+    }
+  ],
+  "height": 112,
+  "hullId": "COPS_valence",
+  "hullName": "Valence",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 81,
+  "spriteName": "graphics/COPS/ships/COPS_Valence_combatfreighter.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        15,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        50,
+        -20
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        50,
+        20
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0004",
+      "locations": [
+        14,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [
+        14,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 45,
+      "arc": 135,
+      "id": "WS0006",
+      "locations": [
+        -10,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 135,
+      "id": "WS0007",
+      "locations": [
+        -10,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 180,
+      "id": "WS0008",
+      "locations": [
+        -34,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 112
+}

@@ -1,0 +1,22 @@
+{
+  "displayName": "Picket Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "COPS_worce",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_worce_picket",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

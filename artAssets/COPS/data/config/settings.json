@@ -1,0 +1,35 @@
+{
+    "plugins":{
+	"COPS_ModuleRetreatCleaner":"data.scripts.plugins.COPS_ModuleRetreatCleaner",
+    },
+	
+	"graphics":{
+    	"fx":{
+          "COPS_shieldsInner256":"graphics/COPS/fx/COPS_shields256.png",
+          "COPS_shieldsRing256":"graphics/COPS/fx/COPS_shields256ring.png",
+          "COPS_shieldsInner128":"graphics/COPS/fx/COPS_shields128.png",
+          "COPS_shieldsRing128":"graphics/COPS/fx/COPS_shields128ring.png",
+          "COPS_shieldsInner64":"graphics/COPS/fx/COPS_shields64.png",
+          "COPS_shieldsRing64":"graphics/COPS/fx/COPS_shields64ring.png",
+		  
+		  "COPS_zap1":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_1.png",
+		  "COPS_zap2":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_2.png",
+		  "COPS_zap3":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_3.png",
+		  "COPS_zap4":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_4.png",
+		  "COPS_zap5":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_5.png",
+		  "COPS_zap6":"graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_arc_6.png",
+		  
+		  "COPS_PPGlow1":"graphics/COPS/weapons/PP Gun/PP_t_glow.png",
+		  "COPS_PPGlow25":"graphics/COPS/weapons/PP Gun/PP_t2_glow.png",
+		  "COPS_PPGlow50":"graphics/COPS/weapons/PP Gun/PP_t3_glow.png",
+		  "COPS_PPGlow75":"graphics/COPS/weapons/PP Gun/PP_t4_glow.png",
+        },
+	},
+    "designTypeColors":{
+        "COPS":[255,250,250,255],
+
+    },
+	"blueprint_packages":{
+		"COPS_package":"graphics/COPS/hullmods/COPS_commission.png",
+    },	
+}

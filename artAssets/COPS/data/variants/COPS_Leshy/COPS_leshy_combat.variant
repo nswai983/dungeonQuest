@@ -1,0 +1,35 @@
+{
+  "displayName": "Combat",
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "COPS_leshy",
+  "hullMods": [
+    "ecm"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_leshy_combat",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MAIN": "COPS_leshy_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon",
+        "WS0002": "ioncannon",
+        "WS0003": "ioncannon",
+        "WS0004": "ionbeam",
+        "WS0005": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

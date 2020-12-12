@@ -1,0 +1,284 @@
+{
+  "bounds": [
+    -73.5,
+    3,
+    -66,
+    21,
+    -89,
+    20.5,
+    -95.5,
+    1,
+    -100.5,
+    19.5,
+    -111.5,
+    29.5,
+    -107.5,
+    76,
+    -83,
+    70.5,
+    -56,
+    48,
+    11,
+    47.5,
+    24.5,
+    65.5,
+    116.5,
+    39.5,
+    76.5,
+    37,
+    76.5,
+    -37,
+    116.5,
+    -39.5,
+    24.5,
+    -65.5,
+    11,
+    -47.5,
+    -56,
+    -48,
+    -83,
+    -70.5,
+    -107.5,
+    -76,
+    -111.5,
+    -29.5,
+    -100.5,
+    -19.5,
+    -95.5,
+    -1,
+    -89,
+    -20.5,
+    -66,
+    -21,
+    -73.5,
+    -3
+  ],
+  "builtInMods": [
+    "ecm",
+    "COPS_shield"
+  ],
+  "center": [
+    80,
+    120
+  ],
+  "collisionRadius": 193.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 83.5,
+      "location": [
+        -119.5,
+        -33.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 83.5,
+      "location": [
+        -119.5,
+        33.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 73,
+      "location": [
+        -118.5,
+        -44.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 73,
+      "location": [
+        -118.5,
+        44.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 86,
+      "location": [
+        -116.5,
+        -58.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 86,
+      "location": [
+        -116.5,
+        58.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 93,
+      "location": [
+        -115.5,
+        -69.5
+      ],
+      "style": "COPS_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 93,
+      "location": [
+        -115.5,
+        69.5
+      ],
+      "style": "COPS_TECH",
+      "width": 20
+    }
+  ],
+  "height": 240,
+  "hullId": "COPS_electras",
+  "hullName": "Electras",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 157,
+  "spriteName": "graphics/COPS/ships/COPS_Electona_carrier.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0002",
+      "locations": [
+        27,
+        -52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0003",
+      "locations": [
+        27,
+        52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [
+        -93,
+        -58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -180,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        -93,
+        58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -34.5,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [
+        -41.5,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 34.5,
+      "arc": 90,
+      "id": "WS0006",
+      "locations": [
+        -41.5,
+        28
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        46.5,
+        -26,
+        47,
+        -14.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        47.5,
+        10.5,
+        47.5,
+        -2.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        48,
+        28.5,
+        47.5,
+        19
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 160
+}

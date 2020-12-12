@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox fx:id="vboxController" fx:controller="MainWindow" xmlns:fx="http://javafx.com/fxml"  stylesheets="@MainWindow.css"
+    spacing="10" prefHeight="900" prefWidth="1440" >
+
+    <BorderPane>
+
+    <top>
+    <VBox alignment="center">
+    <ImageView><image><Image url="@images/logo.png"/></image></ImageView>
+    </VBox>
+    </top>
+
+    <right />
+
+    <center>
+        <HBox fx:id = "hboxMenuController" alignment="center">
+        <VBox fx:id="vboxMainMenu" alignment="center">
+            <Button fx:id="btnNewGame" onAction="#onNewGameBtnClicked" text="New Game"  />
+            <Button fx:id="btnLoadGame" onAction="#onLoadGameBtnClicked" text="Load Game"  />
+            <Button fx:id="btnHelpScreen" onAction="#onHelpBtnClicked" text="Help"  />
+            <Button fx:id="btnCreditsScreen" onAction="#onCreditsBtnClicked" text="Credits Game"  />
+            <Button fx:id="btnExit" onAction="#onExitBtnClicked" text="Exit"  />
+        </VBox>
+        <VBox fx:id="vboxGameMode" alignment="center">
+            <Button fx:id="btnEndlessMode" onAction="#onEndlessModeBtnClicked" text="Endless Mode"  />
+            <Button fx:id="btnBackToMenu" onAction="#onBackToMainMenuBtnClicked" text="Back"  />
+        </VBox>
+        <VBox fx:id="vboxDifficultySetting" alignment="center">
+            <Button fx:id="btnEasyDifficulty" onAction="#onEasyDifficultyBtnClicked" text="Easy"  />
+            <Button fx:id="btnNormalDifficulty" onAction="#onNormalDifficultyBtnClicked" text="Normal"  />
+            <Button fx:id="btnHardDifficulty" onAction="#onHardDifficultyBtnClicked" text="Hard"  />
+            <Button fx:id="btnBackToGameModeMenu" onAction="#onBackToGameModeBtnClicked" text="Back"  />
+        </VBox>
+        <VBox fx:id="vboxUserEntry" alignment="center">
+            <TextField fx:id="txtfieldUserName" text="TYPE NAME HERE" />
+            <Button fx:id="btnBegin" onAction="#onBeginButtonClicked" text="Begin" />
+            <Button fx:id="btnBackToDifficultyChoice" onAction="#onBackToDifficultyChoiceBtnClicked" text="Back"  />
+        </VBox>
+        </HBox>
+    </center>
+
+    <left />
+
+    </BorderPane>
+
+</VBox>

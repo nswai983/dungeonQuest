@@ -1,0 +1,61 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "fireSoundOne": "burst_pd_fire",
+  "fireSoundTwo": "graviton_beam_loop",
+  "fringeColor": [
+    255,
+    230,
+    95,
+    255
+  ],
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/weapons/Large Lance/COPS_largelance_HP_glow.png",
+  "hardpointOffsets": [
+    47.5,
+    7,
+    47.5,
+    -7
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/Large Lance/COPS_largelance_HP.png",
+  "hitGlowRadius": 0,
+  "id": "COPS_largelance",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pixelsPerTexel": 1,
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 64,
+  "textureType": LASER,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/weapons/Large Lance/COPS_largelance_glow.png",
+  "turretOffsets": [
+    34.5,
+    7,
+    34.5,
+    -7
+  ],
+  "turretSprite": "graphics/COPS/weapons/Large Lance/COPS_largelance.png",
+  "type": "ENERGY",
+  "width": 12
+}

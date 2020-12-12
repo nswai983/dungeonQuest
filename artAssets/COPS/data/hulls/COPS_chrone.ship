@@ -1,0 +1,200 @@
+{
+  "bounds": [
+    -36.5,
+    12.5,
+    -80,
+    20,
+    -80,
+    31,
+    -52,
+    50.5,
+    -19,
+    46.5,
+    -6.5,
+    49.5,
+    7,
+    45.5,
+    13,
+    35,
+    25,
+    31.5,
+    25,
+    30.5,
+    16.5,
+    27,
+    5,
+    23.5,
+    36,
+    12.5,
+    37,
+    19,
+    17.5,
+    26.5,
+    25.5,
+    30.5,
+    25.5,
+    31,
+    36,
+    28,
+    42.5,
+    38,
+    78,
+    26,
+    78,
+    -26,
+    42.5,
+    -38,
+    36,
+    -28,
+    25.5,
+    -31,
+    25.5,
+    -30.5,
+    17.5,
+    -26.5,
+    37,
+    -19,
+    36,
+    -12.5,
+    5,
+    -23.5,
+    16.5,
+    -27,
+    25,
+    -30.5,
+    25,
+    -31.5,
+    13,
+    -35,
+    7,
+    -45.5,
+    -6.5,
+    -49.5,
+    -19,
+    -46.5,
+    -52,
+    -50.5,
+    -80,
+    -31,
+    -80,
+    -20,
+    -36.5,
+    -12.5
+  ],
+  "center": [
+    57,
+    85.5
+  ],
+  "collisionRadius": 125,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 19,
+      "length": 73.5,
+      "location": [
+        -84.5,
+        26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    },
+    {
+      "angle": -180,
+      "contrailSize": 19,
+      "length": 73.5,
+      "location": [
+        -84.5,
+        -26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 19
+    }
+  ],
+  "height": 171,
+  "hullId": "COPS_chrone",
+  "hullName": "Chrone",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 112.5,
+  "spriteName": "graphics/COPS/ships/COPS_Chrone_destroyer.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0001",
+      "locations": [
+        27.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 51.5,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -2.5,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -51.5,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -2.5,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        81.5,
+        -23
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        81.5,
+        23
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        72.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 114
+}

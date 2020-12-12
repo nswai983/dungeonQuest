@@ -1,0 +1,24 @@
+{
+	"baseHullId":"COPS_haydron",
+	"skinHullId":"COPS_haydron_BO",
+	"hullName":"Haydron (BO)",
+	"descriptionId":"COPS_haydron",
+	"descriptionPrefix":"This advanced Black-Ops variant of the Haydron-class sports more powerful thrusters and impressive targeting systems.",
+	"tags":["rare_bp", "COPS_BO_bp"],
+	"tech":"COPS",
+	"style":"COPS_TECH",
+	"systemId":"plasmajets",
+	"baseValueMult":2.0,
+	"spriteName":"graphics/COPS/ships/COPS_Haydron_siegedestroyer_BO.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["dedicated_targeting_core",], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods": [
+    "targetingunit"
+	],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+	},
+}

@@ -1,0 +1,276 @@
+{
+  "bounds": [
+    -79,
+    7.5,
+    -62.5,
+    16.5,
+    -74.5,
+    31.5,
+    -62.5,
+    42,
+    -49.5,
+    30.5,
+    -38.5,
+    41.5,
+    12,
+    16,
+    23.5,
+    15.5,
+    39.5,
+    79,
+    53.5,
+    13.5,
+    77.5,
+    18,
+    62.5,
+    4.5,
+    62.5,
+    -4.5,
+    77.5,
+    -18,
+    53.5,
+    -13.5,
+    39.5,
+    -79,
+    23.5,
+    -15.5,
+    12,
+    -16,
+    -38.5,
+    -41.5,
+    -49.5,
+    -30.5,
+    -62.5,
+    -42,
+    -74.5,
+    -31.5,
+    -62.5,
+    -16.5,
+    -79,
+    -7.5
+  ],
+  "builtInMods": [
+    "fluxshunt",
+    "COPS_shield"
+  ],
+  "builtInWeapons": {
+    "WS0007": "dualflak"
+  },
+  "center": [
+    83,
+    82
+  ],
+  "collisionRadius": 181,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -81.5,
+        -6
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -81.5,
+        6
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 67,
+      "location": [
+        -82,
+        -0
+      ],
+      "style": "COPS_TECH",
+      "width": 11
+    },
+    {
+      "angle": -135,
+      "contrailSize": 18.384775,
+      "length": 60.104076,
+      "location": [
+        -70.5,
+        -39.5
+      ],
+      "style": "COPS_TECH",
+      "width": 18.384775
+    },
+    {
+      "angle": 135,
+      "contrailSize": 18.384775,
+      "length": 60.104076,
+      "location": [
+        -70.5,
+        39.5
+      ],
+      "style": "COPS_TECH",
+      "width": 18.384775
+    },
+    {
+      "angle": -135,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -66.5,
+        -43.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": 135,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -66.5,
+        43.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": -135,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -74.5,
+        -35.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": 135,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -74.5,
+        35.5
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    }
+  ],
+  "height": 164,
+  "hullId": "COPS_neutroyte",
+  "hullName": "Neutroyte",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 149.5,
+  "spriteName": "graphics/COPS/ships/COPS_Neutroyte_defensebarge.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        118,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        73,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        73,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        39,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -47,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        -47,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0007",
+      "locations": [
+        -18,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -55,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "STATION_MODULE"
+    }
+  ],
+  "width": 166
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vboxController" fx:controller="GameWindow" xmlns:fx="http://javafx.com/fxml"  stylesheets="@MainWindow.css"
+    spacing="10" prefHeight="900" prefWidth="1440">
+
+    <BorderPane fx:id="borderpaneGameWindow">
+
+        <top />
+        <bottom />
+        <center>
+            <Pane fx:id="paneGameStage" prefHeight="800" prefWidth="1340">
+            <Label fx:id="lblPauseText" />
+            </Pane>
+        </center>
+        <left>
+            <HBox fx:id="hboxMenu" >
+                <Button fx:id="btnSaveGame" onAction="#onSaveGameBtnClicked" text="Save Game"  />
+                <Button fx:id="btnExit" onAction="#onExitBtnClicked" text="Exit"  />
+            </HBox>
+        </left>
+
+        <right>
+            <VBox fx:id="PlayerDisplayInfo">
+                <Label fx:id="lblPlayerName" style="-fx-text-fill: rgb(37, 253, 253)" />
+                <Label text="Player Health:" style="-fx-text-fill: rgb(37, 253, 253)"/>
+                <Label fx:id="lblPlayerHealth" style="-fx-text-fill: rgb(37, 253, 253)"/>
+                <Label />
+                <Label fx:id="lblLastKilledEnemy" />
+                <ImageView><image><Image url="@images/EnemiesIcon.png" /></image></ImageView>
+                <Label fx:id="lblAliensKilled" style="-fx-text-fill: rgb(37, 253, 253)" />
+                <Label />
+                <ImageView><image><Image url="@images/ArtifactsIcon.png" /></image></ImageView>
+                <Label fx:id="lblArtifactsCollected" style="-fx-text-fill: rgb(37, 253, 253)" />
+            </VBox>
+        </right>
+
+    </BorderPane>
+
+</VBox>

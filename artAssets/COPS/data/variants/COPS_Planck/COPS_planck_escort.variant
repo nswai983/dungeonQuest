@@ -1,0 +1,31 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "COPS_planck",
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_planck_escort",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

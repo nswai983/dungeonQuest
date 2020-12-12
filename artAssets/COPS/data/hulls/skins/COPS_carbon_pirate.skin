@@ -1,0 +1,27 @@
+{
+	"baseHullId":"COPS_carbon",
+	"skinHullId":"COPS_carbon_pirate",
+	"hullName":"Carbon (P)",
+	"descriptionId":"COPS_carbon",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"style":"LOW_TECH",
+	"systemId":"ammofeed",
+	"ordnancePoints":50,
+	"baseValueMult":.8,
+	"spriteName":"graphics/COPS/ships/COPS_Carbon_heavyfrigate_Pirate.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInMods":["faulty_grid","comp_hull"],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+		"WS0002":{"type":BALLISTIC},
+		"WS0003":{"type":BALLISTIC},
+		"WS0004":{"type":MISSILE},
+		"WS0005":{"type":MISSILE},
+	},
+}

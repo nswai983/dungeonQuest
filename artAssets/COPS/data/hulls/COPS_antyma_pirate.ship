@@ -1,0 +1,272 @@
+{
+  "bounds": [
+    -43,
+    16.5,
+    -92,
+    22.5,
+    -92,
+    53.5,
+    3.5,
+    85.5,
+    45.5,
+    75,
+    47.5,
+    57,
+    74,
+    53,
+    113.5,
+    17.5,
+    27,
+    16,
+    27,
+    -16,
+    113.5,
+    -17.5,
+    74,
+    -53,
+    47.5,
+    -57,
+    45.5,
+    -75,
+    3.5,
+    -85.5,
+    -92,
+    -53.5,
+    -92,
+    -22.5,
+    -43,
+    -16.5
+  ],
+  "center": [
+    89,
+    118
+  ],
+  "collisionRadius": 182,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 40,
+      "length": 155,
+      "location": [
+        -99.5,
+        -44.5
+      ],
+      "style": "LOW_TECH",
+      "width": 40
+    },
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 155,
+      "location": [
+        -99.5,
+        44.5
+      ],
+      "style": "LOW_TECH",
+      "width": 40
+    },
+    {
+      "angle": -180,
+      "contrailSize": 32,
+      "length": 116.5,
+      "location": [
+        -99.5,
+        -29
+      ],
+      "style": "LOW_TECH",
+      "width": 32
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 116.5,
+      "location": [
+        -99.5,
+        29
+      ],
+      "style": "LOW_TECH",
+      "width": 32
+    },
+    {
+      "angle": -138.5,
+      "contrailSize": 128,
+      "length": 82.821091,
+      "location": [
+        -16.5,
+        -80.5
+      ],
+      "style": "LOW_TECH",
+      "width": 21.03973
+    },
+    {
+      "angle": 138.5,
+      "contrailSize": 128,
+      "length": 82.821091,
+      "location": [
+        -16.5,
+        80.5
+      ],
+      "style": "LOW_TECH",
+      "width": 21.03973
+    }
+  ],
+  "height": 238,
+  "hullId": "COPS_antyma_pirate",
+  "hullName": "Antyma MK.II",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 149.5,
+  "spriteName": "graphics/COPS/ships/COPS_Antyma_pirate_fastcruiser.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        0,
+        55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0010",
+      "locations": [
+        0,
+        -55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        89,
+        -35
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        89,
+        35
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 20,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        22,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -20,
+      "arc": 180,
+      "id": "WS0013",
+      "locations": [
+        22,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        114,
+        21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0014",
+      "locations": [
+        114,
+        -21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        58.5,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        58.5,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 70,
+      "id": "WS0001",
+      "locations": [
+        72,
+        -54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 70,
+      "id": "WS0009",
+      "locations": [
+        72,
+        54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 178
+}
