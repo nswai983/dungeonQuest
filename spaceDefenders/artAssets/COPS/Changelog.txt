@@ -1,0 +1,82 @@
+v2.0b
+	- Fixed a bug which crashed to desktop. This hotfix may or may not fix already doomed saves (I'm so sorry)
+
+v2.0a
+	- Added several blueprint packages that can be found in exploration for COPS ships. This was an intended feature for 2.0 but was not included by mistake. This small update will not break saves from 2.0, but is still incompatable with 1.*.
+
+v2.0 (Arsenal Update)
+	- New ships:
+		. Photoal-class Light Drone Carrier
+		. Rhodan-class Drone Carrier
+		. Carbon-class Heavy Frigate
+		. Mesonax-class Heavy Arsenal Ship
+		. Valence-class Combat Freighter
+		. Haydron-class Siege Cruiser
+		. Quantum-class Heavy Phase Frigate
+		. Lepton-class Cruiser
+		. Schala-class Patrol Craft
+		. Chrone-class Destroyer
+
+	- New modular weapons:
+		. Light Pulse Gun
+		. Dual Pulse Gun
+		. Rapid Proton Pulser
+		. Proton Lance
+		. Dual Proton Lance
+		. Thermal Splinter Blaster
+		
+	- New line of rare Black Ops skins for various COPS ships.
+	
+	- Inclusion of custom shield effect for COPS ships.
+
+	- Visual improvements/reworks to many of the COPS ships:
+		. Muonay
+		. Atome
+		. Gluoni
+		. Gravon
+
+	- Several minor (and major) balance changes to COPS ships.
+	
+	- Rework to Atome-class Battlecarrier
+		. Changed Large synergy slots to energy.
+		. Changed system to a slightly weaker version of temporal shell which affects its fighters as well.
+		. Slightly Improved other stats overall.
+
+	- Rework to Gravon-class Heavy Cruiser
+		. A frontal module now acts as a "shield" to weapons, prevent them from being disabled. The
+		  weapons are totally disabled if the module is destroyed.
+ 
+	- Bosani-class frigate removed.
+
+	- New music tracks.
+
+	- MANY BUGFIXES
+
+v1.2
+	- Changes to Tau-class super frigate:
+		. Improved flux capacity from 4000 to 4150
+		. Improved armor rating from 120 to 140
+		. Improved hull hitpoints from 1100 to 1250
+	(The ship is now slightly less punishing from small mistakes. It has been underperforming for its maintenance cost.)
+
+	- Changes to Atome-class Battlecarrier
+		. Impaired flux capacity from 16000 to 15000
+		. Impaired flux regen from 950 to 900
+		. Impaired shield arc from 200 to 90
+		. Impaired shield effeciency from 0.6 to 0.7
+	(This ship works just a little too well. It needed heavy nerfs.)
+
+	- Changes to Azimov-class Battleship
+		. Impaired shield arc from 270 to 180
+	(A small reduction to its overall safety.)
+
+	- Added unique engine trails to COPS ships.
+
+	- Added ships avalible to the COPS base blueprint package to simulator
+
+	- Added the COPS base blueprint package to Nexerelin start
+
+v1.1
+	- Added compatibility with Version Checker
+	- Reduced the maximum turnrate of the Planck by -40.
+	- Reduced the shield efficiency of the Bosana and Bosana (S) by -0.1.

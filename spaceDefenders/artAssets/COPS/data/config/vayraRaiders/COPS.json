@@ -1,0 +1,82 @@
+{
+	"raiderFactionId":"COPS", # String, faction id
+	
+	"onlySpawnWhenVisibleInIntelTab":true, # OPTIONAL Boolean, default false. CAN be modified by scripts in-game
+	# other important note i guess: these will only spawn when the parent controls at least 1 (one) non-hidden market
+	
+	"isFirebase":true, # OPTIONAL Boolean, default false
+	# Firebases are NON-hidden markets and spawn in the same system as their target
+	
+	#"freePort":false, # OPTIONAL Boolean, default true
+	
+	"spawnNonEventFleets":true, # OPTIONAL Boolean, default false
+	# Causes small, NON-EVENT-RELATED fleets to spawn from ALL markets owned by the faction (i.e. not just bases created by this framework)
+	
+	"raiderActivityString":"COPS Presence", # OPTIONAL String, default "<personOrEntityPrefix> Raider Activity"
+	
+	"raidTargetWeights":{ # OPTIONAL String -> Float map, factionId -> pick weight, default no special weights
+		"pirates":99999999, # example, "hegemony":10, = 10x more likely to pick Hegemony targets
+		},
+		
+	"raiderBaseTypes":{ # OPTIONAL String -> Float map, orbital station industry ID -> pick weight, default always low-tech
+		"orbitalstation":1,
+		"orbitalstation_mid":1,
+		"orbitalstation_high":4,
+		},
+	"raiderBaseConditionsAndIndustries":[ # OPTIONAL List<String>, default “Frontier”, “No Atmosphere”, “Population”, “Spaceport”, “Military Base”, “Orbital Works”
+		"vayra_hardened_populace", 
+		"grounddefenses", 
+		"no_atmosphere",
+		"population",
+		"spaceport",
+		"militarybase",
+		"orbitalworks"
+		],
+
+	# Fleet names are set in the .faction file, under the "merc" fleet types
+
+	# Base names will be combined with a random other word. idk where they come from
+    "raiderBaseTypeNames":[
+		"Alcazar",
+		"Assault Point",
+		"Assault Post",
+		"Barricade",
+		"Base",
+		"Bastion",
+		"Battlement",
+		"Blockhouse",
+		"Bulwark",
+		"Buttress",
+		"Camp",
+		"Depot",
+		"Firebase",
+		"Fort",
+		"Fortalice",
+		"Fortification",
+		"Fortress",
+		"Forward Operating Base",
+		"Garrison",
+		"Hall",
+		"Haven",
+		"Headquarters",
+		"Hideout",
+		"Hold",
+		"Nest",
+		"Oblast",
+		"Outpost",
+		"Orbital",
+		"Platform",
+		"Post",
+		"Rampart",
+		"Roost",
+		"Staging Base",
+		"Staging Point",
+		"Staging Post",
+		"Station",
+		"Stockade",
+		"Warsat",
+		"Watchpost",
+		"Watchpoint",
+		"Watchtower"
+	],
+}

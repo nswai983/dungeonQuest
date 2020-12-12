@@ -1,0 +1,229 @@
+{
+  "bounds": [
+    -163,
+    39.5,
+    -180,
+    55.5,
+    -75,
+    71,
+    -177,
+    88,
+    -64.5,
+    113,
+    25,
+    105,
+    93.5,
+    33.5,
+    94,
+    1,
+    76.5,
+    1,
+    56,
+    13,
+    30.5,
+    49,
+    -8,
+    58.5,
+    -48.5,
+    30,
+    -57,
+    -0,
+    -48.5,
+    -30,
+    -8,
+    -58.5,
+    30.5,
+    -49,
+    56,
+    -13,
+    76.5,
+    -1,
+    94,
+    -1,
+    93.5,
+    -33.5,
+    25,
+    -105,
+    -64.5,
+    -113,
+    -177,
+    -88,
+    -75,
+    -71,
+    -180,
+    -55.5,
+    -163,
+    -39.5
+  ],
+  "builtInMods": [
+    "targetingunit",
+	"COPS_shield"
+  ],
+  "builtInWeapons": {
+    "MAIN": "COPS_leshy_weapon",
+    "WS0006": "COPS_wDrone_blinker",
+    "WS0007": "COPS_wDrone_blinker"
+  },
+  "center": [
+    126,
+    190.5
+  ],
+  "collisionRadius": 331,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 164.5,
+      "location": [
+        -177.5,
+        11
+      ],
+      "style": "LOW_TECH",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 28,
+      "length": 164.5,
+      "location": [
+        -177.5,
+        -11
+      ],
+      "style": "LOW_TECH",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 107,
+      "location": [
+        -166.5,
+        -32
+      ],
+      "style": "LOW_TECH",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 107,
+      "location": [
+        -166.5,
+        32
+      ],
+      "style": "LOW_TECH",
+      "width": 25
+    }
+  ],
+  "height": 293,
+  "hullId": "COPS_leshy",
+  "hullName": "Leshy",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    -44,
+    0
+  ],
+  "shieldRadius": 221,
+  "spriteName": "graphics/COPS/ships/REDACTED/COPS_Leshy.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "MAIN",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        85.5,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        57.5,
+        72
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        95
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 235,
+      "id": "WS0004",
+      "locations": [
+        39.5,
+        -94
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -120.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -189.5,
+        89.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -189.5,
+        -89.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 252
+}

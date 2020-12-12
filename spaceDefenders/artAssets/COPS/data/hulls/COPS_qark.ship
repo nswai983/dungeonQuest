@@ -1,0 +1,94 @@
+{
+  "bounds": [
+    -10.5,
+    13,
+    0.5,
+    6.5,
+    11.5,
+    9.5,
+    4.5,
+    4,
+    11,
+    -0,
+    4.5,
+    -4,
+    11.5,
+    -9.5,
+    0.5,
+    -6.5,
+    -10.5,
+    -13
+  ],
+  "builtInMods": [
+    "missile_reload",
+    "COPS_shield"
+  ],
+  "center": [
+    16,
+    14
+  ],
+  "collisionRadius": 24.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 14,
+      "location": [
+        -13,
+        9
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 14,
+      "location": [
+        -13,
+        -9
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    }
+  ],
+  "height": 28,
+  "hullId": "COPS_qark",
+  "hullName": "Qark",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/COPS/ships/fighters/COPS_Qark_drone.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        8,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 32
+}

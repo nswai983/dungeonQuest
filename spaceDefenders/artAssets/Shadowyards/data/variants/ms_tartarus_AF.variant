@@ -1,0 +1,45 @@
+{
+    "displayName": "Anti Flux",
+    "fluxCapacitors": 15,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "ms_tartarus",
+    "hullMods": ["adaptiveshields"],
+    "permaMods": [],
+    "variantId": "ms_tartarus_AF",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0002": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser"
+            }
+        }
+    ]
+}

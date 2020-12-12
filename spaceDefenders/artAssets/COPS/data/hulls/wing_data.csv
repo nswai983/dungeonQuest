@@ -1,0 +1,4 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+COPS_worce_picket_wing,COPS_worce_picket,"no_drop, no_sell, high",0,,0,0,V,0,500,0,3,SUPPORT,Picket Drone,5,2000,,,,,,,,,,,,,100
+COPS_qark_drone_wing,COPS_qark_standard,"no_drop, no_sell, high",3,,5,0,CLAW,2000,1000,0,1,FIGHTER,Fighter Drone,25,2000,,,,,,,,,,,,,
+COPS_rhodonite_default_wing,COPS_rhodonite_true_default,"no_drop, no_sell, high",3,,7,0,V,5000,1500,0,1,FIGHTER,Heavy Drone,45,2000,,,,,,,,,,,,,

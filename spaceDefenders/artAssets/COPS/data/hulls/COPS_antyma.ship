@@ -1,0 +1,328 @@
+{
+  "bounds": [
+    -62,
+    14.5,
+    -31,
+    21.5,
+    -48.5,
+    41.5,
+    -76,
+    30,
+    -111.5,
+    28,
+    -103.5,
+    63,
+    -48.5,
+    85.5,
+    64,
+    59,
+    109,
+    25.5,
+    50.5,
+    11.5,
+    50.5,
+    -11.5,
+    109,
+    -25.5,
+    64,
+    -59,
+    -48.5,
+    -85.5,
+    -103.5,
+    -63,
+    -111.5,
+    -28,
+    -76,
+    -30,
+    -48.5,
+    -41.5,
+    -31,
+    -21.5,
+    -62,
+    -14.5
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "center": [
+    89,
+    118
+  ],
+  "collisionRadius": 182,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 21,
+      "length": 101.5,
+      "location": [
+        -113.5,
+        -53.5
+      ],
+      "style": "COPS_TECH",
+      "width": 21
+    },
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 101.5,
+      "location": [
+        -113.5,
+        53.5
+      ],
+      "style": "COPS_TECH",
+      "width": 21
+    },
+    {
+      "angle": -180,
+      "contrailSize": 32,
+      "length": 116.5,
+      "location": [
+        -117,
+        -34.5
+      ],
+      "style": "COPS_TECH",
+      "width": 32
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 116.5,
+      "location": [
+        -117,
+        34.5
+      ],
+      "style": "COPS_TECH",
+      "width": 32
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 92,
+      "location": [
+        -66,
+        -0
+      ],
+      "style": "COPS_TECH",
+      "width": 32
+    }
+  ],
+  "height": 238,
+  "hullId": "COPS_antyma",
+  "hullName": "Antyma",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 149.5,
+  "spriteName": "graphics/COPS/ships/COPS_Antyma_missilecruiser.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        40,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 140,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -80,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -140,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -80,
+        -48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        0,
+        55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0010",
+      "locations": [
+        0,
+        -55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 90,
+      "id": "WS0011",
+      "locations": [
+        -46,
+        -57
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 90,
+      "id": "WS0012",
+      "locations": [
+        -46,
+        57
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 20,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        22,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -20,
+      "arc": 180,
+      "id": "WS0013",
+      "locations": [
+        22,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        114,
+        21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0014",
+      "locations": [
+        114,
+        -21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0015",
+      "locations": [
+        112,
+        -35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0016",
+      "locations": [
+        112,
+        35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        58.5,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        58.5,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -22.5,
+        -67.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0017",
+      "locations": [
+        -22.5,
+        67.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 178
+}

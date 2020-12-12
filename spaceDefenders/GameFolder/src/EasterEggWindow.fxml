@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vboxController" fx:controller="EasterEggWindow" xmlns:fx="http://javafx.com/fxml"  stylesheets="@MainWindow.css"
+    spacing="10" prefHeight="700" prefWidth="480">
+
+    <BorderPane>
+
+    <top>
+    </top>
+
+    <center>
+        <VBox fx:id="vboxEasterEggBox" >
+            <Label fx:id="lblScrollpane"></Label>
+        </VBox>
+    </center>
+
+    <right>
+    </right>
+
+    <bottom>
+        <VBox alignment="CENTER" >
+            <Button fx:id="btnExit" onAction="#onExitBtnClicked" text="Exit" />
+        </VBox>
+    </bottom>
+
+    </BorderPane>
+
+</VBox>

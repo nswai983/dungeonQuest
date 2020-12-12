@@ -1,0 +1,49 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "everyFrameEffect": "data.scripts.weapons.COPS_Shotgun",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/COPS/weapons/Gun/COPS_gun_big_main_recoil_HP.png",
+  "hardpointOffsets": [
+    44.5,
+    0
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/Gun/COPS_gun_big_main_HP.png",
+  "id": "COPS_shotgun_big",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      255,
+      200,
+      200,
+      100
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "spread": 40
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_shotgun_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/COPS/weapons/Gun/COPS_gun_big_recoil.png",
+  "turretOffsets": [
+    45,
+    0
+  ],
+  "turretSprite": "graphics/COPS/weapons/Gun/COPS_gun_big_main.png",
+  "type": "ENERGY",
+  "visualRecoil": 6
+}

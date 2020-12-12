@@ -1,0 +1,77 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"showIntelEvenIfDead":true,
+
+    "rebelFleetSuffix":"Deserters",
+
+	"marketSpawnWeight":0.25,
+
+    "startRelationships":{
+		"pirates": -1.0,
+		"junk_pirates": -0.8,
+		"cabal": -1.0,
+		"new_galactic_order": -1.0
+    },
+	
+	"maxRelationships":{
+		"pirates": -1.0,
+		"new_galactic_order": -1.0
+	},
+
+	"diplomacyTraits":["pacifist", "dislikes_ai", "law_and_order", "neutralist"],
+    "morality":"good",
+    "alignments":{
+            "corporate":0,
+            "technocratic":1,
+            "militarist":1,
+            "diplomatic":0.5,
+            "ideological":0.25,
+    },
+
+
+    "vengeanceLevelNames":["Assassination", "Sabotage", "Destabilization"],
+    "vengeanceFleetNames":["Killer", "Sabotage", "Instigator"],
+    "vengeanceFleetNamesSingle":["a Kill Fleet", "a Sabotage Task Force", "a Destabilization Force"],
+
+    "miningVariantsOrWings":[],
+	
+	"colonyExpeditionChance":2,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+
+    "startShipsSolo":[
+        ["COPS_muonay_balanced"],
+		["COPS_carbon_combat"],
+    ],
+    "startShipsCombatSmall":[
+        ["COPS_bosana_assault", "COPS_tempest_strike", "COPS_planck_escort"],
+		["COPS_gluoni_assault", "COPS_carbon_combat", "COPS_wolf_cop_balanced"],
+    ],
+    "startShipsCombatLarge":[
+        ["COPS_gravon_balanced", "COPS_bosana_balanced", "COPS_gluoni_support"],
+    ],
+   "startShipsCarrierSmall":[
+       ["COPS_proteus_standard", "COPS_muonay_balanced", "COPS_planck_escort"],
+   ],
+    "startShipsCarrierLarge":[
+        ["COPS_electras_standard", "COPS_proteus_standard", "COPS_bosana_balanced"],
+   ],
+	"startShipsSuper":[
+       ["COPS_tau_elite"],
+	],
+	
+	"startSpecialItems":[
+        [["COPS_package", ""]],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+	{"id":"cryosanctum", "mult":0},
+    ],
+}

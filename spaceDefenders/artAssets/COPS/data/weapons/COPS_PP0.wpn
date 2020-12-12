@@ -1,0 +1,40 @@
+{
+  "animationType": "GLOW",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/weapons/PP Gun/PP_t_glow.png",
+  "hardpointOffsets": [
+    26.5,
+    0
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/PP Gun/PP_t.png",
+  "id": "COPS_PP0",
+  "fireSoundTwo": "antimatter_blaster_fire",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_PP_shot0",
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/weapons/PP Gun/PP_glow.png",
+  "turretOffsets": [
+    26.5,
+    0
+  ],
+  "turretSprite": "graphics/COPS/weapons/PP Gun/PP.png",
+  "type": "ENERGY"
+}

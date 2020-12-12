@@ -1,0 +1,69 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 30,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "COPS_atome",
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_atome_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler",
+        "WS0002": "tachyonlance",
+        "WS0003": "tachyonlance",
+        "WS0004": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "taclaser",
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "taclaser",
+        "WS0017": "taclaser",
+        "WS0018": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "pilum"
+      }
+    }
+  ],
+  "wings": [
+    "dagger_wing",
+    "dagger_wing",
+    "wasp_wing",
+    "wasp_wing"
+  ]
+}

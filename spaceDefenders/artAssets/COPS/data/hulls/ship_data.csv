@@ -1,0 +1,69 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Worce,COPS_worce,,COPS,,,40,10,500,,100,0,,325,500,450,180,360,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,999
+Qark,COPS_qark,,COPS,,,200,50,800,,120,0,,250,500,450,180,360,10,FRONT,,270,0.5,1,,,0,0,,,,,,,,,,,,,,,,0,,,999
+Rhodonite,COPS_rhodonite,Heavy Drone,COPS,microburn,,1000,250,3000,,300,40,,150,140,130,90,270,70,OMNI,,90,0.4,0.8,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0,,,999
+Rhodonite,COPS_rhodonite_true,Heavy Drone,COPS,microburn,,1000,250,3000,,300,40,,150,140,130,90,270,70,OMNI,,90,0.4,0.8,,,0,0,,,,,,,,,,,,,UNBOARDABLE,,,0,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Planck,COPS_planck,Patrol Craft,COPS,maneuveringjets,1,700,100,1500,,100,20,1,160,150,100,120,180,90,OMNI,,200,0.5,0.8,,,2,15,10,5,1,5,11,3200,5,20,170,0.25,2,2,,"COPS_bp, COPS_nav_bp",,0.75,2,2,999
+Schala,COPS_schala,Patrol Craft,COPS,flarelauncher_active,1,900,120,1800,,145,30,,180,140,90,110,160,90,FRONT,,270,0.5,0.8,,,2,10,15,5,1,5,11,3300,5,20,170,0.25,2,2,,"COPS_bp, COPS_nav_bp",,0.75,2,2,999
+Wolf (COP),COPS_wolf_cop,Missile Frigate,COPS,displacer,5,1250,150,2000,,160,40,,140,140,90,70,110,200,FRONT,,150,0.5,0.8,,,15,30,50,20,1,20,10,15000,10,20,180,0.25,5,5,,"COPS_bp, COPS_ars_bp",,0.5,2,2,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Carbon,COPS_carbon,Heavy Frigate,COPS,highenergyfocus,8,2000,275,5000,,350,60,,120,90,60,60,60,240,OMNI,,90,0.4,1,,,25,50,50,30,1,30,10,35000,5,12,200,0.25,9,9,,"COPS_bp, COPS_nav_bp",,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tempest (COP),COPS_tempest,Phase Frigate,COPS,COPS_stasis,10,1250,200,2500,,225,45,1,180,200,175,90,270,200,PHASE,phasecloak,90,,,0.05,0.06,15,25,30,20,1,20,11,30000,10,20,180,0.25,9,9,,"rare_bp, COPS_nav_bp",0.75,0.5,2,2,999
+Quantum,COPS_quantum,Heavy Phase Frigate,COPS,maneuveringjets,12,2000,275,4200,,280,50,,160,150,150,90,250,240,PHASE,phasecloak,90,,,0.05,0.06,20,30,30,20,1,20,11,40000,10,20,180,0.25,10,10,,"rare_bp, COPS_nav_bp",0.75,0.5,2,2,999
+Tau,COPS_tau,Super Frigate,COPS,COPS_tempphasecloak,15,1250,140,4150,,280,60,,170,200,160,120,480,150,OMNI,,270,0.6,0.7,0.1,0.05,7,20,10,20,1,20,10,45000,8,40,180,0.25,15,15,,"rare_bp, COPS_BO_bp",0.5,0.75,2,2,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Muonay,COPS_muonay,Frigate,COPS,microburn,5,1300,240,3200,,320,45,,150,180,120,75,110,200,FRONT,,360,0.5,0.7,,,20,35,55,30,1,30,10,18000,10,20,180,0.25,5,5,,"COPS_bp, COPS_nav_bp",,0.5,2,2,999
+Valence,COPS_valence,Combat Freighter,COPS,flarelauncher_active,4,1750,400,2000,,180,60,,130,200,150,60,60,300,FRONT,,120,0.4,1,,,20,80,80,80,1,80,10,16000,10,20,180,0.25,4,4,,"COPS_bp, COPS_aux_bp",,0.5,2,2,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Destroyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bosana,COPS_bosana,Destroyer,COPS,temporalshell,12,3500,350,6000,,375,105,,105,60,40,30,60,300,FRONT,,360,0.5,0.7,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,12,12,,"COPS_bp, COPS_nav_bp",,0.5,2,3,999
+Bosana (S),COPS_bosana_s,Destroyer,High Tech,plasmajets,11,3200,325,6000,,400,100,,110,75,50,40,60,300,FRONT,,270,0.5,0.7,,,50,100,100,60,2,30,9,35000,5,12,360,0.25,11,11,,hightech_bp,,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neutroyte,COPS_neutroyte,Defense Destroyer,COPS,fortressshield,13,3500,250,7000,,400,50,,70,40,30,50,75,350,FRONT,,135,0.5,0.6,,,60,120,90,40,2,20,9,45000,5,12,360,0.25,12,12,SHIP_WITH_MODULES,"COPS_bp, COPS_aux_bp",,0.5,2,3,999
+Neutroyte MK.II,COPS_neutroyte_pirate,Destroyer,Pirate,ammofeed,13,3500,350,7000,,400,95,,90,75,50,50,75,350,FRONT,,135,0.25,1.2,,,60,120,90,40,2,20,9,36000,5,12,360,0.25,12,12,,pirate_bp,,0.5,2,3,999
+Chrone,COPS_chrone,Destroyer,COPS,flarelauncher_active,13,3200,280,6500,,300,105,,110,70,40,40,25,300,FRONT,,200,0.5,0.8,,,55,100,120,40,2,20,9,40000,5,12,360,0.25,12,12,,"COPS_bp, COPS_nav_bp",,0.5,2,3,999
+Gluoni,COPS_gluoni,Missile Destroyer,COPS,fastmissileracks,13,3000,280,5000,,250,75,,110,80,40,30,25,300,OMNI,,90,0.5,0.7,,,50,100,120,40,2,20,9,42000,5,12,360,0.25,11,11,,"COPS_bp, COPS_ars_bp",,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Proteus,COPS_proteus,Light Carrier,COPS,targetingfeed,10,3200,310,6000,,350,55,2,80,70,45,20,20,300,OMNI,,120,0.5,0.8,,,100,180,30,20,2,10,9,36000,5,10,360,0.25,10,10,CARRIER,"COPS_bp, COPS_nav_bp",,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Photoal,COPS_photoal,Light Drone Carrier,COPS,plasmajets,10,3500,325,6000,,375,80,4,80,70,45,20,20,300,OMNI,,120,0.5,0.9,,,100,180,30,20,2,10,9,36000,5,10,360,0.25,11,11,"CARRIER, COMBAT","COPS_bp, COPS_nav_bp",,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Cruisers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antyma,COPS_antyma,Missile Cruiser,COPS,forgevats,17,7500,750,9500,,600,150,,60,70,40,15,25,1400,OMNI,,120,0.5,0.7,,,120,180,120,80,3,27,8,150000,4,12,420,0.25,24,24,,"COPS_bp, COPS_ars_bp",,0.5,2,3,999
+Antyma MK.II,COPS_antyma_pirate,Light Cruiser,Pirate,maneuveringjets,15,6500,750,7000,,350,115,,75,80,50,20,25,1200,OMNI,,120,0.5,0.7,,,100,180,120,80,3,27,8,120000,4,12,420,0.25,20,20,,pirate_bp,,0.5,2,3,999
+Haydron,COPS_haydron,Siege Cruiser,COPS,maneuveringjets,17,7000,750,9500,,750,120,,47,35,25,25,25,1700,OMNI,,90,0.5,0.9,,,125,200,120,80,3,27,8,165000,4,12,420,0.25,27,27,,"rare_bp, COPS_cru_bp",,0.5,2,3,999
+Electras,COPS_electras,Carrier,COPS,COPS_energytransfer,16,7000,800,8500,,700,105,3,50,30,20,15,10,1500,OMNI,,120,0.5,1,,,230,320,100,72,4,18,8,145000,4,12,420,0.25,25,25,"CARRIER, COMBAT","COPS_bp, COPS_cru_bp",,0.4,2,3,999
+Lepton,COPS_lepton,Cruiser,COPS,reservewing,15,7000,700,8000,,700,130,1,85,70,50,20,30,1200,OMNI,,180,0.5,0.7,,,100,500,200,120,3,40,8,110000,4,12,420,0.25,20,20,,"COPS_bp, COPS_aux_bp",,0.5,2,3,999
+Gravon,COPS_gravon,Heavy Cruiser,COPS,highenergyfocus,20,5000,800,12500,,800,195,,45,50,25,12,12,1800,FRONT,,270,0.5,0.7,,,150,250,150,90,3,30,8,225000,4,20,420,0.25,35,35,SHIP_WITH_MODULES,"rare_bp, COPS_cru_bp",,0.6,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rhodan,COPS_rhodan,Drone Carrier,COPS,fastmissileracks,16,7000,750,7000,,350,135,1,70,45,40,25,25,1400,FRONT,,200,0.5,0.7,,,120,180,120,80,3,27,8,170000,4,12,420,0.25,25,25,"SHIP_WITH_MODULES, CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, COPS_cru_bp",,0.5,2,3,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Atome,COPS_atome,Battlecarrier,COPS,COPS_temporalprojector,27,17000,1000,18000,,1000,275,4,40,20,15,10,15,3200,OMNI,,140,0.6,0.7,,,600,1300,250,300,15,20,7,400000,3,12,720,0.25,45,45,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.5,2,4,999
+Atome (BO),COPS_atome_BO,Black Ops Battlecarrier,COPS,temporalshell,27,17000,1000,18000,,1000,290,4,40,20,15,10,15,3200,OMNI,,140,0.6,0.7,,,600,1300,250,300,15,20,7,800000,3,12,720,0.25,45,45,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, COPS_BO_bp",0.1,0.5,2,4,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Asimov,COPS_asimov,Battleship,COPS,COPS_grappler,30,18000,1400,22000,,1300,380,,32,20,10,5,2,3200,OMNI,,180,0.6,0.6,,,400,1000,300,300,10,30,7,500000,4,20,720,0.25,60,60,,rare_bp,,0.6,2,4,999
+Mesonax,COPS_mesonax,Heavy Arsenal Ship,COPS,forgevats,25,16000,1250,20000,,900,250,,35,20,10,5,2,3200,OMNI,,220,0.4,0.7,,,380,900,500,300,10,30,7,450000,4,20,720,0.25,40,40,,"rare_bp, COPS_ars_bp",,0.6,2,4,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Modules,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,COPS_neutroyte_module,Barrier Module,COPS,flarelauncher_active,1,3000,1400,500,,100,0,,0,0,0,10,10,100,NONE,,180,0,0,,,0,0,0,0,1,0,,40000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,999
+,COPS_gravon_mod,Arsenal Module,COPS,,1,5000,800,500,,100,0,,0,0,0,10,10,1000,NONE,,180,0,0,,,0,0,0,0,1,0,,40000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, UNDER_PARENT",module_hull_bar_only,,1,2,4,999
+,COPS_stabilizer_mod,Stabilizer,COPS,,1,99999,9999,500,,100,1,,0,0,0,10,10,0,NONE,,180,0,0,,,0,0,0,0,1,0,,0,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, UNDER_PARENT",module_hull_bar_only,,1,2,4,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Leshy,COPS_leshy,Cruiser,COPS,displacer,20,8000,800,12500,,800,115,,45,50,25,25,25,2000,OMNI,,200,0.2,0.7,,,0,0,150,90,3,30,8,225000,4,20,420,0.25,30,30,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,3,999

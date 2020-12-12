@@ -1,0 +1,41 @@
+{
+  "animationType": "GLOW",
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "everyFrameEffect": "data.scripts.weapons.COPS_Accel",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_glow.png",
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel.png",
+  "id": "COPS_haydronaccel",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_accel_shot",
+  "renderAboveAllWeapons": 0,
+  "renderBelowAllWeapons": true,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_glow.png",
+  "turretOffsets": [
+    -43.5,
+    0
+  ],
+  "turretSprite": "graphics/COPS/weapons/Gravity Accel/COPS_gravity_accel_example.png",
+  "type": "ENERGY"
+}

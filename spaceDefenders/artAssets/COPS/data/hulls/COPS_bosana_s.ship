@@ -1,0 +1,228 @@
+{
+  "bounds": [
+    -67.5,
+    21,
+    -51.5,
+    29.5,
+    -51,
+    46,
+    -35,
+    42,
+    -10.5,
+    22,
+    12.5,
+    38,
+    25.5,
+    48,
+    26.5,
+    30,
+    70.5,
+    5,
+    37.5,
+    4,
+    37.5,
+    -4,
+    70.5,
+    -5,
+    26.5,
+    -30,
+    25.5,
+    -48,
+    12.5,
+    -38,
+    -10.5,
+    -22,
+    -35,
+    -42,
+    -51,
+    -46,
+    -51.5,
+    -29.5,
+    -67.5,
+    -21
+  ],
+  "center": [
+    53,
+    72
+  ],
+  "collisionRadius": 125,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -71,
+        17.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -71,
+        -17.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 39.5,
+      "location": [
+        -71,
+        -11.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 39.5,
+      "location": [
+        -71,
+        11.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 49,
+      "location": [
+        -71,
+        -5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 49,
+      "location": [
+        -71,
+        5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    }
+  ],
+  "height": 144,
+  "hullId": "COPS_bosana_s",
+  "hullName": "Bosana (S)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 100,
+  "spriteName": "graphics/COPS/ships/COPS_Bosana_destroyer_HT.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -56.5,
+      "arc": 140,
+      "id": "WS0002",
+      "locations": [
+        22,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 56.5,
+      "arc": 140,
+      "id": "WS0003",
+      "locations": [
+        22,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -125,
+      "arc": 138,
+      "id": "WS0004",
+      "locations": [
+        -46,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 125,
+      "arc": 138,
+      "id": "WS0005",
+      "locations": [
+        -46,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0006",
+      "locations": [
+        45,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0007",
+      "locations": [
+        45,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        33,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        -12,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 106
+}

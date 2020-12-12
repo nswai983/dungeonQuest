@@ -1,0 +1,24 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Focused Weapon Powergrid,COPS_heavyenergyintegration,,,,,,,,TRUE,,0,0,0,0,data.hullmods.COPS_HeavyEnergyIntegration,Reduces the OP cost of large energy weapons by 10.,,graphics/hullmods/ballistics_integration.png
+,,,,,,,,,,,,,,,,,,
+Covert Reconfiguration,COPS_commission,,,COPS,,,,,TRUE,,0,0,0,0,data.hullmods.COPS_Commission,"This ship has been modified for extended deployments in uncivilized territory.
+
+Increases peak performance time by %s/%s/%s/%s depending on ship size.
+
+Decreases sensor profile, fuel use, and supplies consumed per month by %s.",,graphics/COPS/hullmods/COPS_commission.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+COPS Shield,COPS_shield,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_Shield,,,graphics/COPS/hullmods/COPS_commission.png
+,,,,,,,,,,,,,,,,,,
+Rhodonite Systems,COPS_rhodonitesystems,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_RhodoniteSystem,Lol don't worry about it.,,graphics/hullmods/augmented_drive_field.png
+Rhodan Systems,COPS_rhodansystems,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_RhodanSystem,Lol don't worry about it.,,graphics/hullmods/augmented_drive_field.png
+,,,,,,,,,,,,,,,,,,
+Gravon Module System,COPS_gravonsystems,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_Gravon_ModuleSystem,Lol don't worry about it.,,graphics/hullmods/augmented_drive_field.png
+Module Stabilizer,COPS_stabilizer,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_Stabilizer,Lol don't worry about it.,,graphics/hullmods/augmented_drive_field.png
+Quantum P.P. System,COPS_PPsystem,,,,special,SPECIAL,,,TRUE,TRUE,0,0,0,0,data.hullmods.COPS_Quantum_PPSystem,Lol don't worry about it.,,graphics/hullmods/augmented_drive_field.png

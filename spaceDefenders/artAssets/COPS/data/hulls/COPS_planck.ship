@@ -1,0 +1,132 @@
+{
+  "bounds": [
+    -29.5,
+    6,
+    -11,
+    19,
+    4,
+    11.5,
+    26,
+    7,
+    19,
+    -0.5,
+    26,
+    -7,
+    -14,
+    -17,
+    -29.5,
+    -5.5
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "builtInWings": [
+    "COPS_worce_picket_wing"
+  ],
+  "center": [
+    22,
+    33
+  ],
+  "collisionRadius": 57.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        4
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        -4
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": -135,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [
+        -19.5,
+        -16
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    },
+    {
+      "angle": 135,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [
+        -19.5,
+        16
+      ],
+      "style": "COPS_TECH",
+      "width": 10
+    }
+  ],
+  "height": 64,
+  "hullId": "COPS_planck",
+  "hullName": "Planck",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 42,
+  "spriteName": "graphics/COPS/ships/COPS_Planck_patrolcraft.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 233,
+      "id": "WS0001",
+      "locations": [
+        15,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 73.5,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -11,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -2,
+        -10.5,
+        1.5,
+        -10.5,
+        5,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 44
+}

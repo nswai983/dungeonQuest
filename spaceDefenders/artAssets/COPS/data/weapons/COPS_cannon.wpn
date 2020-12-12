@@ -1,0 +1,59 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/weapons/Cannon/COPS_cannon_HP_glow.png",
+  "hardpointOffsets": [
+    18,
+    -5,
+    18,
+    5
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/Cannon/COPS_cannon_HP.png",
+  "id": "COPS_cannon",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      0,
+      243,
+      255,
+      150
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "spread": 20
+  },
+  "noImpactSounds": false,
+  "fireSoundTwo": "COPS_cannon_fire",
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "COPS_cannon_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/weapons/Cannon/COPS_cannon_glow.png",
+  "turretOffsets": [
+    18,
+    5,
+    18,
+    -5
+  ],
+  "turretSprite": "graphics/COPS/weapons/Cannon/COPS_cannon.png",
+  "type": "ENERGY"
+}

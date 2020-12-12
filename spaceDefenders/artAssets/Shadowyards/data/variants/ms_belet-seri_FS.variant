@@ -1,0 +1,29 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_belet-seri",
+    "hullMods": [
+        "blast_doors",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_belet-seri_FS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_trishula",
+                "WS0003": "ms_trishula"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_pdcepc"}
+        }
+    ]
+}

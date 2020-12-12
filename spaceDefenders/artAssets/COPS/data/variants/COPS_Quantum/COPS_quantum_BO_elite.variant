@@ -1,0 +1,48 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_quantum_BO",
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor",
+    "hardened_subsystems"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 2,
+  "variantId": "COPS_quantum_BO_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "COPS_PP"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "COPS_light_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COPS_rapidlaser",
+        "WS0002": "COPS_rapidlaser"
+      }
+    }
+  ],
+  "wings": []
+}

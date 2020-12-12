@@ -1,0 +1,37 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Worce Blinker,COPS_wDrone_blinker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+Bosana Cover,COPS_bosana_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+Neutro-blinker,COPS_n_blinker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+Disintegration Swarmer ,COPS_leshy_weapon,,,,1200,,125,,,90,,300,30,1,HIGH_EXPLOSIVE,90,,0,0,4,0,360,360,,,,800,,,,SYSTEM,,,,,,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Red Blinker,COPS_r_blinker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+Blue Blinker,COPS_b_blinker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dual Pulse Gun,COPS_cannon,1,,1200,750,,66,,0,20,10,15,3.333,1,ENERGY,66,,0.15,0,,,0,12,1,5,,900,,,,,"energy13, COPS_bp",,,,General,,,,,,,,,,999
+Light Pulse Gun,COPS_light_cannon,1,,600,600,,66,,0,40,5,10,1.5,1,ENERGY,66,,0.3,0,,,0,12,1,5,,900,,,,,"energy13, COPS_bp",,,,General,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Comet Storm MIRV,COPS_cometlauncher,,,,10000,,800,,25,10,,2,0.01,1,ENERGY,0,,0,15,,,0,0,0,0,,200,400,120,500,"SYSTEM, DO_NOT_AIM",,,COPS,,Long Range Saturation,Very Slow,Very Poor,,,,,,,TRUE,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rapid Proton Pulser,COPS_rapidlaser,1,,500,450,475,,,,100,4,,,,FRAGMENTATION,,125,,0.2,0.2,,,,,,3000,,,,,PD,"pd7, beam7, SR, COPS_bp",,,,Point Defense,,,,,,,,,,999
+Proton Lance,COPS_lance,1,,800,450,2850,,,100,20,9,,,,FRAGMENTATION,,800,,0.25,0.25,1,,,,,2000,,,,,,"beam10, COPS_bp",,,,Suppression,,,,,,,,,,999
+Dual Proton Lance,COPS_largelance,1,,800,500,4500,,,100,5,16,,,,FRAGMENTATION,,1250,,0.25,0.25,1,,,,,2000,,,,,,"beam12, COPS_bp",,,,Suppression,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Haydron Spinner,COPS_spinner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+Haydron Accelerator,COPS_haydronaccel,,,,1400,,1200,,100,0,,,,,KINETIC,2400,,1,2.3333,,,0,0,,,,2500,,,,SYSTEM,,,COPS,,Siege,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Pulse Cannon,COPS_PP,,,,900,,17.5,10,10,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,1000,,,,SYSTEM,,,COPS,,General,,,,,"DPS Improves dramatically with `Phase Level`, charged by being in phase space and expended when firing.",,"Phase Level Modifiers:
+Above 1% - 35 damage per shot / 200 DPS
+Above 25% - 52.5 damage per shot / 300 DPS
+Above 50% - 78.75 damage per shot / 450 DPS
+Above 75% - 118.125 damage per shot / 675 DPS",,,999
+Phase Pulse Cannon,COPS_PP1,,,,900,,35,20,10,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,1250,,,,SYSTEM,,,COPS,,General,,,,,,,,,,999
+Phase Pulse Cannon,COPS_PP25,,,,900,,52.5,30,15,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,1500,,,,SYSTEM,,,COPS,,General,,,,,,,,,,999
+Phase Pulse Cannon,COPS_PP50,,,,900,,78.75,40,20,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,1750,,,,SYSTEM,,,COPS,,General,,,,,,,,,,999
+Phase Pulse Cannon,COPS_PP75,,,,900,,118.125,70,30,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,2000,,,,SYSTEM,,,COPS,,General,,,,,,,,,,999
+Phase Pulse Cannon,COPS_PP0,,,,900,,17.5,10,10,0,,,,,ENERGY,78.75,,,0.175,,,0,0,,,,1000,,,,SYSTEM,,,COPS,,General,,,,,,,,,,999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermal Splinter Blaster,COPS_shotgun,2,,1400,650,,200,,10,18,12,,,,HIGH_EXPLOSIVE,250,,0.1,0.9,,,5,5,,,,1000,,,,PD,"energy15, COPS_bp",,,,Close Support,,,,Poor,,,,,,
+Thermal Splinter Blaster,COPS_shotgun_1,,,,650,,40,,10,0,,,,,HIGH_EXPLOSIVE,250,,0.1,0.9,,,5,5,,,,1000,,,,"PD, SYSTEM",,,,,Close Support,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermal Hail Blaster,COPS_shotgun_big,2,,3500,800,,200,,10,9,25,,,,HIGH_EXPLOSIVE,250,,0.1,0.8,6,0.1,15,15,,,,1000,,,,PD,"energy20, COPS_bp",,,,Close Support,,,,Poor,,,,,,
+Thermal Splinter Blaster,COPS_shotgun_2,,,,800,,40,,10,0,,,,,HIGH_EXPLOSIVE,250,,0.1,0.8,,,15,15,,,,1000,,,,"PD, SYSTEM",,,,,Close Support,,,,,,,,,,

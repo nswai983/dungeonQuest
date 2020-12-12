@@ -1,0 +1,10 @@
+{
+	"id":"COPS",
+	"name":"Concordance of Protection Syndicate",
+	"author":"Created by J0hn Shm0.",
+	"version":"2.0b",
+	"description":"                        REQUIRES LazyLib and MagicLib.                          Adds the COPS faction, a group of anti-pirate police.",
+	"gameVersion":"0.9.1a",
+	"jars":["jars/COPS_code.jar"],
+	"modPlugin":"data.scripts.COPS_modPlugin",
+}

@@ -1,0 +1,9 @@
+id,type,frame,magnitude,map,path
+COPS_mesonax,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Mesonax_heavyarsenalship_Normal.png
+COPS_carbon,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Carbon_heavyfrigate_Normal.png
+COPS_haydron,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Haydron_Normal.png
+COPS_gravon,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Gravon_Normal.png
+COPS_gravon_mod,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Gravon_Module_Normal.png
+COPS_atome,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Atome_Normal.png
+COPS_atome_BO,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Atome_Normal.png
+COPS_quantum,ship,,2,normal,graphics/COPS/maps/ships_normals/COPS_Quantum_Normal.png

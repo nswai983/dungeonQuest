@@ -1,0 +1,7 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME COPS,,,,,,
+greetingCOPSFriendly,OpenCommLink,"$faction.id == COPS
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","The comm opens with $personRank $personName saluting for a brief moment, before $heOrShe lowers $hisOrHer hand. ""Hello lawful citizen of the Persian sector, we've powered down our weapons for your safety. Keep an eye out for pirates on your travels, and be careful.""
+OR
+The comm opens with $personRank $personName saluting for a brief moment, before $heOrShe lowers $hisOrHer hand. ""Greetings, $playerName, we've powered down our weapons for your safety. Keep an eye out for pirates on your travels, and be careful.""",cutCommLink: Cut the comm link,

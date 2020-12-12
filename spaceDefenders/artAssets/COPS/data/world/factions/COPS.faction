@@ -1,0 +1,284 @@
+{
+	id:"COPS",
+	"color":[250,250,250,255],
+	"displayName":"COPS",
+	"displayNameWithArticle":"the COPS",
+	"displayNameLong":"Concordance of Protection Syndicate",
+	"displayNameLongWithArticle":"the Concordance of Protection Syndicate",
+	"logo":"graphics/COPS/factions/COPS_flag.png",
+	"crest":"graphics/COPS/factions/COPS_crest.png",
+	"shipNamePrefix":"CSS",
+	"shipNameSources":{
+		"JAPANESE":2,
+		"EGYPTIAN":2,
+		"NORDIC":1,
+		"MERCANTILE":3,
+		"SPACE":3,
+		"GENERAL":2,
+	},
+	"description":"No description yet.",
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"hightech_bp":1,"COPS_bp":2,"pirate_bp":0.5,
+		},
+		"hulls":{
+			"COPS_tempest":0.75,
+			"COPS_tau":0.4,
+			"COPS_doom":0.5,
+			"COPS_neutroyte":0.8,
+			"COPS_planck":0.5, #so less spam
+			"gremlin":0,
+			"wolf":0,
+			"doom":0,
+			"tempest":0,
+			"COPS_bosana_s":0,
+			"COPS_gravon":0.75,
+			"COPS_atome_BO":0.1,
+			"COPS_haydron_BO":0.1,
+			"COPS_quantum":0.75,
+			"COPS_quantum_BO":0.1,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+			
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp","COPS_bp","pirate_bp"],
+		"hulls":[
+			"COPS_tempest", 
+			"COPS_doom",
+			"COPS_gravon",
+			"COPS_atome",
+			"COPS_atome_BO",
+			"COPS_asimov",
+			"COPS_tau",
+			"COPS_rhodan",
+			"COPS_mesonax",
+			"COPS_haydron",
+			"COPS_haydron_BO",
+			"COPS_quantum",
+			"COPS_quantum_BO"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["COPS_bp"],
+		"hulls":[
+			"COPS_tempest",
+			"COPS_doom",
+			"COPS_gravon",
+			"COPS_atome",
+			"COPS_atome_BO",
+			"COPS_asimov",
+			"COPS_tau",
+			"COPS_rhodan",
+			"COPS_mesonax",
+			"COPS_haydron",
+			"COPS_haydron_BO",
+			"COPS_quantum",
+			"COPS_quantum_BO"
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "tritachyon", "COPS_bp"],
+		"fighters":[
+			"xyphos_wing",
+			"thunder_wing",
+			"claw_wing",
+			"trident_wing",
+			"cobra_wing",
+			"longbow_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "tritachyon", "COPS_bp"],
+		"weapons":[
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"tachyonlance",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "tritachyon"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":2,
+		"phaseShips":2,
+		
+		"officerQuality":4,
+		"shipQuality":1,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"ship_design",
+			"electronic_warfare",
+			"fighter_doctrine",
+			"officer_management",
+			"coordinated_maneuvers",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+		"hand_weapons",
+		"drugs",
+		"organs",
+	],
+	"music":{
+		"theme":"COPS_music_encounter1",
+		"market_neutral":"COPS_music_station1",
+		"market_hostile":"COPS_music_station1",
+		"market_friendly":"COPS_music_station1",
+		"encounter_neutral":"COPS_music_encounter2",
+		"encounter_hostile":"COPS_music_encounter1",
+		"encounter_friendly":"COPS_music_encounter2",
+	},
+	"internalComms":"tritachyon_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_corporate01.png",
+			"graphics/portraits/portrait_corporate03.png",
+			"graphics/portraits/portrait_corporate05.png",
+			"graphics/portraits/portrait_corporate06.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait35.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_corporate07.png",
+			"graphics/portraits/portrait34.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Sherif"},
+			"factionLeader":{"name":"Master Chief"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Master Chief"},
+			"patrolCommander":{"name":"Officer"},
+			"fleetCommander":{"name":"Deputy"},
+			"baseCommander":{"name":"Sherif"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.25,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":true,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"Convoy",
+		"tradeLiner":"Large Provisions Escort",
+		"tradeSmuggler":"Covert-Ops Mission",
+		"smallTrader":"Provisions Convy",
+		
+		"patrolSmall":"Security Patrol",
+		"patrolMedium":"Medium Vigil",
+		"patrolLarge":"High Guard",
+		
+		"inspectionFleet":"Inspector",
+		"taskForce":"Special-Ops Deployment",
+		
+		#"foodReliefFleet":"Relief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		#"mercBountyHunter":"Human Recovery Contractor",
+		#"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+

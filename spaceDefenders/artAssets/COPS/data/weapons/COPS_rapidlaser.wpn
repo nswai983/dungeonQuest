@@ -1,0 +1,60 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "fireSoundOne": "burst_pd_fire",
+  "fringeColor": [
+    255,
+    230,
+    95,
+    255
+  ],
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/COPS/weapons/Rapid Laser/COPS_rapid_laser_HP_GLOW.png",
+  "hardpointOffsets": [
+    11.5,
+    2.5,
+    11.5,
+    -2.5
+  ],
+  "hardpointSprite": "graphics/COPS/weapons/Rapid Laser/COPS_rapid_laser_HP.png",
+  "hitGlowRadius": 0,
+  "id": "COPS_rapidlaser",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pixelsPerTexel": 1,
+  "renderAboveAllWeapons": 0,
+  "size": "SMALL",
+  "specClass": "beam",
+  "textureScrollSpeed": 64,
+  "textureType": LASER,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGlowSprite": "graphics/COPS/weapons/Rapid Laser/COPS_rapid_laser_GLOW.png",
+  "turretOffsets": [
+    9.5,
+    2.5,
+    9.5,
+    -2.5
+  ],
+  "turretSprite": "graphics/COPS/weapons/Rapid Laser/COPS_rapid_laser.png",
+  "type": "ENERGY",
+  "width": 3
+}

@@ -1,0 +1,6 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Flux Nosferatu,COPS_energytransfer,,,,,,,,,,1,,0.1,10,TRUE,,,,,,,,,TRUE,graphics/icons/hullsys/flare_launcher.png
+Stasis Projector,COPS_stasis,,,0.1,,,,,,,0.25,,0.25,5,TRUE,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Burst Phase Cloak,COPS_tempphasecloak,,,,,,0.2,,3,0.05,0.5,5,0.5,5,,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Stasis Grappler,COPS_grappler,,,0.05,,,,,,,0.25,,0.25,10,TRUE,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Temporal Projector,COPS_temporalprojector,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png

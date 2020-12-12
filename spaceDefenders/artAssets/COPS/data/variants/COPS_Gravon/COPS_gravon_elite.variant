@@ -1,0 +1,60 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 14,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "COPS_gravon",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [
+    {
+      "module_slot": "COPS_gravon_mod_standard"
+    },
+  ],
+  "permaMods": [],
+  "quality": 2,
+  "variantId": "COPS_gravon_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001_mod": "mjolnir",
+        "WS0002_mod": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013_mod": "harpoonpod",
+        "WS0014_mod": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003_mod": "ionbeam",
+        "WS0004_mod": "ionbeam",
+        "WS0011_mod": "COPS_light_cannon",
+        "WS0012_mod": "COPS_light_cannon",
+        "WS0015": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005_mod": "pdlaser",
+        "WS0006_mod": "pdlaser",
+        "WS0007_mod": "pdlaser",
+        "WS0008_mod": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

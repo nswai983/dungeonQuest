@@ -1,0 +1,210 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+	
+		"COPS_planck_attack":10,
+		"COPS_planck_escort":10,
+		"COPS_planck_screening":10,
+		
+		"COPS_schala_close_support":10,
+		"COPS_schala_strike":10,
+		"COPS_schala_budget":10,
+		
+		"COPS_wolf_cop_assault":5,
+		"COPS_wolf_cop_balanced":5,
+		"COPS_wolf_cop_strike":5,
+		
+		"COPS_muonay_balanced":10,
+		"COPS_muonay_support":10,
+		"COPS_muonay_assault":10,
+		"COPS_muonay_strike":10,
+		
+	},
+	"combatSmall":{
+	
+		"COPS_planck_attack":2,
+		"COPS_planck_escort":2,
+		"COPS_planck_screening":2,
+		
+		"COPS_schala_close_support":3,
+		"COPS_schala_strike":3,
+		"COPS_schala_budget":3,
+		
+		"COPS_wolf_cop_assault":10,
+		"COPS_wolf_cop_balanced":10,
+		"COPS_wolf_cop_strike":10,
+		
+		"COPS_tau_elite":4,
+		"COPS_tau_strike":4,
+		
+		"COPS_muonay_balanced":10,
+		"COPS_muonay_support":10,
+		"COPS_muonay_assault":10,
+		"COPS_muonay_strike":10,
+		
+		"COPS_carbon_attack":10,
+		
+	},
+	"combatMedium":{
+		"COPS_bosana_assault":10,
+		"COPS_bosana_s_assault":10,
+		"COPS_bosana_balanced":10,
+		"COPS_bosana_elite":2,
+		"COPS_bosana_flak":10,
+		
+		"COPS_gluoni_assault":10,
+		"COPS_gluoni_support":10,
+		
+		"COPS_neutroyte_combat":5,
+		"COPS_neutroyte_laser":5,
+		
+		"COPS_neutroyte_pirate_balanced":10,
+	},
+	"combatLarge":{
+		"COPS_antyma_assault":10,
+		"COPS_antyma_support":10,
+		"COPS_antyma_strike":5,
+		"COPS_antyma_pirate_rocket":10,
+		"COPS_antyma_pirate_balanced":10,
+		
+		"COPS_gravon_balanced":10,
+		"COPS_gravon_assault":10,
+		"COPS_gravon_support":10,
+		"COPS_gravon_beam":5,
+		"COPS_gravon_elite":1,
+		
+		"COPS_rhodan_standard":5,
+		
+		"COPS_haydron_support":10,
+		"COPS_haydron_BO_attack":10,
+		
+		"COPS_lepton_attack":5,
+		"COPS_lepton_closesupport":5,
+		"COPS_lepton_support":5,
+
+	},
+	"combatCapital":{
+		"COPS_atome_BO_assault":1,
+		"COPS_atome_assault":10,
+		"COPS_asimov_elite":10,
+		"COPS_mesonax_assault":10,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"COPS_valence_balanced":10,
+		"COPS_valence_mining":10,
+		"COPS_valence_support":10,
+	},
+	"combatFreighterMedium":{
+		
+	},
+	"combatFreighterLarge":{
+		
+	},
+	
+	"civilianRandom":{
+		
+	},
+
+	# carriers
+	"carrierSmall":{
+		"COPS_proteus_standard":10,
+		"COPS_photoal_support":10,
+		"COPS_photoal_laser":5,
+	},
+	"carrierMedium":{
+		"COPS_electras_standard":10,
+		"COPS_rhodan_standard":10,
+		
+	},
+	"carrierLarge":{
+		"COPS_atome_BO_assault":1,
+		"COPS_atome_standard":10,
+		
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"COPS_tempest_strike":5,
+		"COPS_tempest_support":10,
+		"COPS_tau_elite":4,
+		"COPS_tau_strike":4,
+		"COPS_quantum_assault":10,
+		"COPS_quantum_strike":10,
+		"COPS_quantum_BO_elite":10,
+		
+	},
+	"phaseMedium":{
+		
+	},
+	"phaseLarge":{
+		"COPS_doom_support":7
+		
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		
+	},
+	"freighterMedium":{
+		
+	},
+	"freighterLarge":{
+		
+	},
+	
+	"tankerSmall":{
+		
+	},
+	"tankerMedium":{
+		
+	},
+	"tankerLarge":{
+	
+	},
+	
+	"personnelSmall":{
+		
+	},
+	"personnelMedium":{
+		
+	},
+	"personnelLarge":{
+		
+	},
+	
+	"linerSmall":{
+		
+	},
+	"linerMedium":{
+		
+	},
+	"linerLarge":{
+		
+	},
+	
+	# utility ships
+	"tug":{
+		
+	},
+	"crig":{
+		
+	},
+	"utility":{
+		
+	},
+	
+	"orbitalStationLowTech":{
+		
+	},
+	
+	"battlestationLowTech":{
+		
+	},
+	
+}

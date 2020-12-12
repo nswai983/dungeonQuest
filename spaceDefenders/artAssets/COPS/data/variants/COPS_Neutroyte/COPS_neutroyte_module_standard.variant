@@ -1,0 +1,14 @@
+{
+  "displayName": "Module, Neutroyte",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "COPS_neutroyte_module",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_neutroyte_module_standard",
+  "weaponGroups": [],
+  "wings": []
+}

@@ -1,0 +1,243 @@
+{
+  "bounds": [
+    -35.5,
+    13.5,
+    -46,
+    27.5,
+    -38,
+    43,
+    -58.5,
+    68.5,
+    -1.5,
+    38,
+    31.5,
+    41.5,
+    55,
+    30,
+    22,
+    27,
+    25.5,
+    6.5,
+    43,
+    -0,
+    25.5,
+    -6.5,
+    22,
+    -27,
+    55,
+    -30,
+    31.5,
+    -41.5,
+    -1.5,
+    -38,
+    -58.5,
+    -68.5,
+    -38,
+    -43,
+    -46,
+    -27.5,
+    -35.5,
+    -13.5
+  ],
+  "builtInMods": [
+    "COPS_shield",
+    "delicate",
+    "phasefield",
+    "COPS_PPsystem"
+  ],
+  "builtInWeapons": {
+    "WS0005": "COPS_PP"
+  },
+  "center": [
+    73,
+    62
+  ],
+  "collisionRadius": 105,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 52.5,
+      "location": [
+        -49.5,
+        26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 52.5,
+      "location": [
+        -49.5,
+        -26.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 29.5,
+      "location": [
+        -47.5,
+        19.5
+      ],
+      "style": "COPS_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 29.5,
+      "location": [
+        -47.5,
+        -19.5
+      ],
+      "style": "COPS_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 29,
+      "location": [
+        -48,
+        33.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 29,
+      "location": [
+        -48,
+        -33.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": -160.5,
+      "contrailSize": 128,
+      "length": 29,
+      "location": [
+        -55.5,
+        -56.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": 160.5,
+      "contrailSize": 128,
+      "length": 29,
+      "location": [
+        -55.5,
+        56.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": -166,
+      "contrailSize": 128,
+      "length": 29,
+      "location": [
+        -42,
+        -42.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    },
+    {
+      "angle": 166,
+      "contrailSize": 128,
+      "length": 29,
+      "location": [
+        -42,
+        42.5
+      ],
+      "style": "COPS_TECH",
+      "width": 7
+    }
+  ],
+  "height": 124,
+  "hullId": "COPS_quantum",
+  "hullName": "Quantum",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 97,
+  "spriteName": "graphics/COPS/ships/COPS_Quantum_phasefrigate.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        -10,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -10,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        23,
+        -17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        23,
+        17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        35,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 146
+}

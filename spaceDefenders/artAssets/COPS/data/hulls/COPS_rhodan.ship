@@ -1,0 +1,347 @@
+{
+  "bounds": [
+    -116.5,
+    34.5,
+    -89.5,
+    33.5,
+    -116.5,
+    65.5,
+    -83.5,
+    84,
+    -42.5,
+    53.5,
+    -9.5,
+    90.5,
+    27,
+    63,
+    105,
+    13.5,
+    105,
+    -13.5,
+    27,
+    -63,
+    -9.5,
+    -90.5,
+    -42.5,
+    -53.5,
+    -83.5,
+    -84,
+    -116.5,
+    -65.5,
+    -89.5,
+    -33.5,
+    -116.5,
+    -34.5
+  ],
+  "builtInMods": [
+    "COPS_shield",
+    "COPS_rhodansystems"
+  ],
+  "builtInWings": [
+    "COPS_rhodonite_default_wing"
+  ],
+  "center": [
+    95,
+    124
+  ],
+  "collisionRadius": 181.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -122,
+        63
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -122,
+        -63
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -118,
+        -72.5
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -118,
+        72.5
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -124,
+        -35
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -124,
+        35
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -123,
+        -27
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 82,
+      "location": [
+        -123,
+        27
+      ],
+      "style": "COPS_TECH",
+      "width": 12
+    },
+    {
+      "angle": -178.5,
+      "contrailSize": 30.982933,
+      "length": 76.931885,
+      "location": [
+        -119.5,
+        -10
+      ],
+      "style": "COPS_TECH",
+      "width": 30.982933
+    },
+    {
+      "angle": 178.5,
+      "contrailSize": 30.982933,
+      "length": 76.931885,
+      "location": [
+        -119.5,
+        10
+      ],
+      "style": "COPS_TECH",
+      "width": 30.982933
+    }
+  ],
+  "height": 248,
+  "hullId": "COPS_rhodan",
+  "hullName": "Rhodan",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    -3.5,
+    -0
+  ],
+  "shieldRadius": 174,
+  "spriteName": "graphics/COPS/ships/COPS_Rhodan_cruiser.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 130,
+      "id": "WS0001",
+      "locations": [
+        58,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        96,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        34,
+        57
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        34,
+        -57
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 130,
+      "id": "WS0007",
+      "locations": [
+        10,
+        -57
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 130,
+      "id": "WS0008",
+      "locations": [
+        10,
+        57
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 130,
+      "id": "WS0005",
+      "locations": [
+        -60,
+        -50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 130,
+      "id": "WS0006",
+      "locations": [
+        -60,
+        50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        4.5,
+        -0,
+        -3,
+        -12.5,
+        14,
+        13.5,
+        -7,
+        14.5,
+        15,
+        -11.5,
+        -16,
+        -0.5,
+        21,
+        0.5,
+        6,
+        20,
+        5.5,
+        -18
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        82,
+        -99
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -45,
+      "arc": 130,
+      "id": "WS0010",
+      "locations": [
+        -25,
+        -51
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 130,
+      "id": "WS0011",
+      "locations": [
+        -25,
+        51
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -94,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    }
+  ],
+  "width": 190
+}

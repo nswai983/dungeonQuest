@@ -1,0 +1,47 @@
+{
+  "displayName": "Rocket",
+  "fluxCapacitors": 15,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "COPS_antyma_pirate",
+  "hullMods": [
+    "missleracks"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "COPS_antyma_pirate_rocket",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "annihilator",
+        "WS0008": "annihilator",
+        "WS0011": "annihilatorpod",
+        "WS0012": "annihilatorpod",
+        "WS0013": "annihilator",
+        "WS0014": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "arbalest",
+        "WS0003": "arbalest",
+        "WS0009": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0010": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

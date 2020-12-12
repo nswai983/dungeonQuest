@@ -1,0 +1,21 @@
+{
+	"baseHullId":"doom",
+	"skinHullId":"COPS_doom",
+	"hullName":"Doom (COP)",
+	"descriptionId":"doom",
+	"descriptionPrefix":"This doom hull is based on earlier prototypes. As such, it has lost the ability to teleport mines. However, it gains a unique system that allows it to disrupt enemy engines. This is more well-suited to the tactics which the COPS employ.",
+	"tags":["rare_bp"],
+	"tech":"COPS",
+	"style":"COPS_TECH",
+	"systemId":"interdictor",
+	"baseValueMult":1.1,
+	"spriteName":"graphics/COPS/ships/COPS_Doom(COP)_phasecruiser.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+	},
+}

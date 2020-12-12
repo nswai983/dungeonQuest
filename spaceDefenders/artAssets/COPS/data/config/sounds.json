@@ -1,0 +1,35 @@
+{	
+
+	"music":{
+		"COPS_music_station1":[
+			{"file":"COPS - Neutral Theme by J0hn Shm0.ogg","source":"sounds/music","volume":0.4},
+		],
+		"COPS_music_encounter1":[
+			{"file":"COPS - Hostile Encounter Theme by J0hn Shm0.ogg","source":"sounds/music","volume":0.4},
+		],
+		"COPS_music_encounter2":[
+			{"file":"COPS - Neutral Encounter Theme by J0hn Shm0.ogg","source":"sounds/music","volume":0.4},
+		],
+	},
+	
+	"COPS_light_cannon_fire":
+	[
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_1.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_3.ogg","pitch":1,"volume":0.4},
+	],
+	"COPS_cannon_fire":
+	[
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_1.ogg","pitch":0.8,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_2.ogg","pitch":0.8,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_3.ogg","pitch":0.8,"volume":0.4},
+	],
+	"COPS_heavy_cannon_fire":
+	[
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_1.ogg","pitch":0.6,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_2.ogg","pitch":0.6,"volume":0.4},
+		{"file":"sounds/COPS_sfx/COPS_cannon_fire_3.ogg","pitch":0.6,"volume":0.4},
+	],	
+	
+	
+}

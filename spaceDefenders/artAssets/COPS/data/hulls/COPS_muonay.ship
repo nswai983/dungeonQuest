@@ -1,0 +1,189 @@
+{
+  "bounds": [
+    -24.5,
+    6,
+    -43.5,
+    24,
+    -39.5,
+    39.5,
+    -24.5,
+    31,
+    -10.5,
+    40,
+    44.5,
+    19,
+    22,
+    -0,
+    44.5,
+    -19,
+    -10.5,
+    -40,
+    -24.5,
+    -31,
+    -39.5,
+    -39.5,
+    -43.5,
+    -24,
+    -24.5,
+    -6
+  ],
+  "builtInMods": [
+    "COPS_shield"
+  ],
+  "builtInWeapons": {
+    "WS0005": "COPS_light_cannon",
+    "WS0006": "COPS_light_cannon"
+  },
+  "center": [
+    46,
+    51
+  ],
+  "collisionRadius": 125,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 85.5,
+      "location": [
+        -50.5,
+        -23.5
+      ],
+      "style": "COPS_TECH",
+      "width": 30
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 85.5,
+      "location": [
+        -50.5,
+        23.5
+      ],
+      "style": "COPS_TECH",
+      "width": 30
+    }
+  ],
+  "height": 102,
+  "hullId": "COPS_muonay",
+  "hullName": "Muonay",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 70.5,
+  "spriteName": "graphics/COPS/ships/COPS_Muony_frigate.png",
+  "style": "COPS_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "WS0007",
+      "locations": [
+        -10,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "WS0001",
+      "locations": [
+        7,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 135,
+      "id": "WS0002",
+      "locations": [
+        7,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -25,
+        -23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -25,
+        23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0005",
+      "locations": [
+        45,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0006",
+      "locations": [
+        45,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -10,
+        -38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -10,
+        38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 92
+}
